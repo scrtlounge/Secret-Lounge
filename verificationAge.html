@@ -2,23 +2,52 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Vérification d'âge | Secret Lounge</title>
-  <link rel="stylesheet" href="verificationAgecss.css">
+  <title>Vérification d'âge</title>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial;
+    }
+    .box {
+      text-align: center;
+    }
+    input, button {
+      padding: 15px;
+      font-size: 20px;
+      margin-top: 15px;
+    }
+  </style>
 </head>
+
 <body>
 
-<div class="age-container">
+<div class="box">
   <h1>🔞 Vérification d'âge</h1>
-  <p>Ce site est réservé aux personnes âgées de <strong>18 ans et plus</strong>.</p>
+  <p>Vous devez avoir 18 ans ou plus</p>
 
-  <label for="age">Quel âge avez-vous ?</label>
-  <input type="number" id="age" placeholder="Entrez votre âge">
-
+  <input type="number" id="age" placeholder="Votre âge">
+  <br>
   <button onclick="checkAge()">Entrer</button>
 
-  <p id="error" class="error"></p>
+  <p id="error"></p>
 </div>
 
-<script src="verificationAgejs.js"></script>
+<script>
+function checkAge() {
+  const age = document.getElementById("age").value;
+  if (age >= 18) {
+    localStorage.setItem("ageVerified", "true");
+    window.location.href = "region.html";
+  } else {
+    document.getElementById("error").innerText = "Accès refusé";
+  }
+}
+</script>
+
 </body>
 </html>
