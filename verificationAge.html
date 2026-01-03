@@ -2,7 +2,13 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Vérification d'âge</title>
+  <title>Vérification d'âge | Secret Lounge</title>
+  
+  <!-- Lien vers CSS spécifique si tu veux le styliser davantage -->
+  <link rel="stylesheet" href="verificationAge.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       background: #000;
@@ -11,15 +17,38 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      font-family: Arial;
+      font-family: Arial, sans-serif;
     }
     .box {
       text-align: center;
+      padding: 30px;
+      background: #1a1a1a;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(255,105,180,0.5);
     }
     input, button {
       padding: 15px;
       font-size: 20px;
       margin-top: 15px;
+      border-radius: 12px;
+      border: none;
+    }
+    button {
+      background: #ff69b4;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #ff69b4;
+    }
+    #error {
+      margin-top: 15px;
+      color: gold;
+      font-size: 18px;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -28,25 +57,37 @@
 
 <div class="box">
   <h1>🔞 Vérification d'âge</h1>
-  <p>Vous devez avoir 18 ans ou plus</p>
+  <p>Vous devez avoir 18 ans ou plus pour accéder au site</p>
 
   <input type="number" id="age" placeholder="Votre âge">
   <br>
-  <button onclick="checkAge()">Entrer</button>
+  <button id="enterBtn">Entrer</button>
 
   <p id="error"></p>
 </div>
 
+<!-- JS -->
 <script>
-function checkAge() {
-  const age = document.getElementById("age").value;
-  if (age >= 18) {
-    localStorage.setItem("ageVerified", "true");
-    window.location.href = "region.html";
-  } else {
-    document.getElementById("error").innerText = "Accès refusé";
-  }
-}
+document.addEventListener("DOMContentLoaded", () => {
+  const enterBtn = document.getElementById("enterBtn");
+  enterBtn.addEventListener("click", () => {
+    const age = parseInt(document.getElementById("age").value, 10);
+    const error = document.getElementById("error");
+
+    if (!age || age < 0) {
+      error.innerText = "Veuillez entrer un âge valide";
+      return;
+    }
+
+    if (age >= 18) {
+      localStorage.setItem("ageVerified", "true");
+      // Redirection vers la sélection de la région
+      window.location.href = "region.html";
+    } else {
+      error.innerText = "Accès refusé : vous devez avoir 18 ans ou plus";
+    }
+  });
+});
 </script>
 
 </body>
