@@ -65,94 +65,103 @@ header {
   box-shadow: 0 0 35px rgba(255, 215, 0, 0.7);
 }
 
-/* PROFILES */
+/* PROFILES → VERTICAL SCROLL */
 .profiles {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-  padding: 30px;
+  display: flex;
+  flex-direction: column; /* Une seule colonne, vertical */
+  align-items: center;    /* Centrer horizontalement */
+  gap: 30px;
+  padding: 30px 0;
+  overflow-y: auto;       /* Défilement vertical */
+  max-height: 80vh;       /* Pour que la page ne soit pas trop longue */
 }
 
+/* CARDS */
 .card {
+  width: 90%; /* Chaque carte prend presque toute la largeur */
   background: #1c1c1c;
-  border-radius: 15px;
+  border: 2px solid #ff69b4; /* Contour rose */
+  border-radius: 20px;
   overflow: hidden;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.5);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.7);
+  box-shadow: 0 8px 25px rgba(255,105,180,0.7);
 }
 
-/* IMAGE PROFIL ORIGINAL */
+/* IMAGE PROFIL */
 .card img {
   width: 100%;
-  max-height: 300px; /* Limite la hauteur pour que toutes soient proportionnelles */
+  height: auto;
+  max-height: 400px; /* garde ratio et intégrité */
   object-fit: cover;
   display: block;
   cursor: pointer;
-  transition: transform 0.3s;
-  border-bottom: 1px solid #333;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-bottom: 1px solid #ff69b4;
 }
 
 .card img:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
+  box-shadow: 0 0 20px #ff69b4;
 }
 
 .card h3 {
   margin: 12px 0 6px;
-  font-size: 20px;
+  font-size: 22px;
+  color: #ff69b4;
 }
 
 .card p {
-  font-size: 15px;
-  padding: 0 12px;
-  color: #ccc;
+  font-size: 16px;
+  padding: 0 15px;
+  color: #ffc0cb;
 }
 
 .price {
   margin: 10px 0;
   font-weight: bold;
-  color: gold;
-  font-size: 16px;
+  color: #ff69b4;
+  font-size: 18px;
 }
 
 .reserve-btn, .instructions-btn {
   display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
+  margin-top: 12px;
+  padding: 12px 22px;
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .reserve-btn {
-  background: #25d366;
+  background: #ff69b4; /* rose vif */
   color: #000;
 }
 
 .reserve-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 18px #25d366;
+  box-shadow: 0 0 20px #ff69b4;
 }
 
 .instructions-btn {
-  background: #1877f2;
+  background: #ff1493; /* rose foncé */
   color: #fff;
 }
 
 .instructions-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 18px #1877f2;
+  box-shadow: 0 0 20px #ff1493;
 }
 
-/* MODAL IMAGE PLEIN ÉCRAN */
+/* MODAL IMAGE */
 .modal {
   display: none;
   position: fixed;
@@ -170,7 +179,7 @@ header {
   max-height: 95%;
   object-fit: contain;
   border-radius: 10px;
-  box-shadow: 0 0 25px rgba(255,255,255,0.2);
+  box-shadow: 0 0 25px rgba(255,105,180,0.4);
 }
 
 @keyframes fadeIn {
