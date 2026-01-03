@@ -28,11 +28,17 @@
     </div>
 
     <div class="loading" id="loading">
-      ⏳ redirection en cours…
+      ⏳ Redirection en cours…
     </div>
   </div>
 
   <!-- JavaScript -->
   <script src="region.js"></script>
+  <script>
+    // Vérification de l'âge avant d'afficher la page
+    if (localStorage.getItem("ageVerified") !== "true") {
+      window.location.href = "VerificationAge.html";
+    }
+  </script>
 </body>
 </html>
