@@ -4,53 +4,11 @@
   <meta charset="UTF-8">
   <title>Vérification d'âge | Secret Lounge</title>
   
-  <!-- Lien vers CSS spécifique si tu veux le styliser davantage -->
-  <link rel="stylesheet" href="verificationAge.css">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      background: #000;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: Arial, sans-serif;
-    }
-    .box {
-      text-align: center;
-      padding: 30px;
-      background: #1a1a1a;
-      border-radius: 20px;
-      box-shadow: 0 0 30px rgba(255,105,180,0.5);
-    }
-    input, button {
-      padding: 15px;
-      font-size: 20px;
-      margin-top: 15px;
-      border-radius: 12px;
-      border: none;
-    }
-    button {
-      background: #ff69b4;
-      color: #000;
-      font-weight: bold;
-      cursor: pointer;
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    button:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 15px #ff69b4;
-    }
-    #error {
-      margin-top: 15px;
-      color: gold;
-      font-size: 18px;
-      font-weight: bold;
-    }
-  </style>
+  <!-- CSS spécifique -->
+  <link rel="stylesheet" href="verificationAge.css">
+
 </head>
 
 <body>
@@ -66,27 +24,38 @@
   <p id="error"></p>
 </div>
 
-<!-- JS -->
+<!-- Script pour la vérification d'âge -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const enterBtn = document.getElementById("enterBtn");
-  enterBtn.addEventListener("click", () => {
-    const age = parseInt(document.getElementById("age").value, 10);
-    const error = document.getElementById("error");
+  const ageInput = document.getElementById("age");
+  const error = document.getElementById("error");
 
+  // Bouton "Entrer"
+  enterBtn.addEventListener("click", () => {
+    const age = parseInt(ageInput.value, 10);
+
+    // Vérification de la validité de l'âge
     if (!age || age < 0) {
       error.innerText = "Veuillez entrer un âge valide";
       return;
     }
 
+    // Si >= 18 → accès autorisé et sauvegarde dans localStorage
     if (age >= 18) {
       localStorage.setItem("ageVerified", "true");
-      // Redirection vers la sélection de la région
+
+      // Redirection vers la sélection de région
       window.location.href = "region.html";
     } else {
       error.innerText = "Accès refusé : vous devez avoir 18 ans ou plus";
     }
   });
+
+  // Si l'âge a déjà été vérifié → accès direct à la sélection de région
+  if (localStorage.getItem("ageVerified") === "true") {
+    window.location.href = "region.html";
+  }
 });
 </script>
 
