@@ -5,6 +5,13 @@
   <title>Choix de la région | Secret Lounge</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+  <script>
+    if (localStorage.getItem("ageVerified") !== "true") {
+      window.location.href = "verificationAge.html";
+    }
+  </script>
+
   <!-- CSS -->
   <link rel="stylesheet" href="region.css">
 </head>
