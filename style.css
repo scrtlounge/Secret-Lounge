@@ -24,10 +24,10 @@ header {
 
 .links a {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 25px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -50,7 +50,7 @@ header {
 .signup-btn {
   display: inline-block;
   margin-top: 20px;
-  padding: 14px 32px;
+  padding: 16px 36px;
   background: linear-gradient(135deg, gold, #ffcc00);
   color: #000;
   font-weight: bold;
@@ -61,15 +61,15 @@ header {
 }
 
 .signup-btn:hover {
-  transform: scale(1.08);
-  box-shadow: 0 0 30px rgba(255, 215, 0, 0.7);
+  transform: scale(1.1);
+  box-shadow: 0 0 35px rgba(255, 215, 0, 0.7);
 }
 
 /* PROFILES */
 .profiles {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
   padding: 30px;
 }
 
@@ -91,7 +91,8 @@ header {
 /* IMAGE PROFIL ORIGINAL */
 .card img {
   width: 100%;
-  height: auto;              
+  max-height: 300px; /* Limite la hauteur pour que toutes soient proportionnelles */
+  object-fit: cover;
   display: block;
   cursor: pointer;
   transition: transform 0.3s;
@@ -99,33 +100,35 @@ header {
 }
 
 .card img:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
 
 .card h3 {
-  margin: 10px 0 5px;
-  font-size: 18px;
+  margin: 12px 0 6px;
+  font-size: 20px;
 }
 
 .card p {
-  font-size: 14px;
-  padding: 0 10px;
+  font-size: 15px;
+  padding: 0 12px;
   color: #ccc;
 }
 
 .price {
-  margin: 8px 0;
+  margin: 10px 0;
   font-weight: bold;
   color: gold;
+  font-size: 16px;
 }
 
 .reserve-btn, .instructions-btn {
   display: inline-block;
-  margin-top: 8px;
-  padding: 10px 18px;
-  border-radius: 20px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 15px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -136,7 +139,7 @@ header {
 
 .reserve-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #25d366;
+  box-shadow: 0 0 18px #25d366;
 }
 
 .instructions-btn {
@@ -146,7 +149,7 @@ header {
 
 .instructions-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #1877f2;
+  box-shadow: 0 0 18px #1877f2;
 }
 
 /* MODAL IMAGE PLEIN ÉCRAN */
