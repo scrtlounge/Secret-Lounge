@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // On sauvegarde la validation dans localStorage
       localStorage.setItem("ageVerified", "true");
 
-      // Redirection vers la page de sélection de région
+      // Redirection vers la page de sélection de régio
       window.location.href = "region.html";
     } else {
       // Sinon message d'erreur
