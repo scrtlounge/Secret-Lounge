@@ -8,7 +8,6 @@
 
   <!-- CSS spécifique -->
   <link rel="stylesheet" href="verificationAge.css">
-
 </head>
 
 <body>
@@ -24,40 +23,8 @@
   <p id="error"></p>
 </div>
 
-<!-- Script pour la vérification d'âge -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const enterBtn = document.getElementById("enterBtn");
-  const ageInput = document.getElementById("age");
-  const error = document.getElementById("error");
-
-  // Bouton "Entrer"
-  enterBtn.addEventListener("click", () => {
-    const age = parseInt(ageInput.value, 10);
-
-    // Vérification de la validité de l'âge
-    if (!age || age < 0) {
-      error.innerText = "Veuillez entrer un âge valide";
-      return;
-    }
-
-    // Si >= 18 → accès autorisé et sauvegarde dans localStorage
-    if (age >= 18) {
-      localStorage.setItem("ageVerified", "true");
-
-      // Redirection vers la sélection de région
-      window.location.href = "region.html";
-    } else {
-      error.innerText = "Accès refusé : vous devez avoir 18 ans ou plus";
-    }
-  });
-
-  // Si l'âge a déjà été vérifié → accès direct à la sélection de région
-  if (localStorage.getItem("ageVerified") === "true") {
-    window.location.href = "region.html";
-  }
-});
-</script>
+<!-- Lien vers le script JavaScript externe -->
+<script src="verificationAge.js"></script>
 
 </body>
 </html>
