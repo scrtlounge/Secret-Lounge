@@ -5,14 +5,14 @@
   <title>Choix de la région | Secret Lounge</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+  <!-- Vérification de l'âge (si l'utilisateur n'a pas encore validé son âge) -->
   <script>
     if (localStorage.getItem("ageVerified") !== "true") {
       window.location.href = "verificationAge.html";
     }
   </script>
 
-  <!-- CSS -->
+  <!-- CSS spécifique pour la page région -->
   <link rel="stylesheet" href="region.css">
 </head>
 <body>
@@ -39,8 +39,8 @@
     </div>
   </div>
 
-  <!-- JavaScript -->
+  <!-- Script JS pour gérer le choix de région -->
   <script src="region.js"></script>
-  <script>
+
 </body>
 </html>
