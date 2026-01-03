@@ -1,8 +1,8 @@
 const profiles = [
   { name: "Cathy", age: 23, price: "8 000 FCFA", desc: "Élégante et discrète.", img: "Keli.jpg" },
   { name: "Chloé", age: 25, price: "10 000 FCFA", desc: "Douce présence, respect absolu.", img: "Chloé.jpg" },
-  { name: "Jessica", age: 26, price: "14 000 FCFA", desc: "Charme naturel, esprit calme.", img: "jessica.jpg" },
-  { name: "Lysette", age: 24, price: "8 000 FCFA", desc: "Allure raffinée, attitude posée.", img: "lysette.jpg" },
+  { name: "Jessica", age: 26, price: "14 000 FCFA", desc: "Charme naturel, esprit calme.", img: "Jessica.jpg" },
+  { name: "Lysette", age: 24, price: "8 000 FCFA", desc: "Allure raffinée, attitude posée.", img: "Lysette.jpg" },
   { name: "Merveille", age: 22, price: "9 000 FCFA", desc: "Présence lumineuse, discrétion assurée.", img: "Merveille.jpg" },
   { name: "Solange", age: 23, price: "8 000 FCFA", desc: "Élégance mature, échanges respectueux.", img: "Solange.jpg" },
   { name: "Marta", age: 25, price: "8 000 FCFA", desc: "Style sobre, charme discret.", img: "Marta.jpg" },
@@ -20,7 +20,7 @@ const profiles = [
   { name: "Claire", age: 25, price: "7 000 FCFA", desc: "Douce présence, respect absolu.", img: "Claire.jpg" },
   { name: "Ines", age: 26, price: "9 000 FCFA", desc: "Charme naturel, esprit calme.", img: "Ines.jpg" },
   { name: "Margo", age: 24, price: "8 000 FCFA", desc: "Allure raffinée, attitude posée.", img: "Margo.jpg" },
-  { name: "Eline", age: 22, price: "10 000 FCFA", desc: "Présence lumineuse, discrétion assurée.", img: "eline.jpg" },
+  { name: "Eline", age: 22, price: "10 000 FCFA", desc: "Présence lumineuse, discrétion assurée.", img: "Eline.jpg" },
   { name: "Soleil", age: 27, price: "8 000 FCFA", desc: "Élégance mature, échanges respectueux.", img: "Soleil.jpg" },
   { name: "Pauline", age: 25, price: "7 000 FCFA", desc: "Style sobre, charme discret.", img: "Pauline.jpg" },
   { name: "Melodie", age: 23, price: "8 000 FCFA", desc: "Féminité subtile, douceur naturelle.", img: "Melodie.jpg" },
@@ -49,6 +49,7 @@ profiles.forEach(profile => {
   const card = document.createElement("div");
   card.className = "card";
 
+  // Message personnalisé WhatsApp
   const message = `Bonjour, je suis intéressé par ${profile.name} (${profile.age} ans – ${profile.price}).`;
   const whatsappLink = `https://wa.me/237659183197?text=${encodeURIComponent(message)}`;
 
@@ -62,6 +63,7 @@ profiles.forEach(profile => {
     </a>
   `;
 
+  // Agrandir l'image au clic
   const img = card.querySelector(".profile-img");
   img.addEventListener("click", () => {
     modal.style.display = "flex";
@@ -71,6 +73,7 @@ profiles.forEach(profile => {
   container.appendChild(card);
 });
 
+// Fermer le modal en cliquant dessus
 modal.addEventListener("click", () => {
   modal.style.display = "none";
   modalImg.src = "";
