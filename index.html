@@ -3,25 +3,30 @@
 <head>
   <meta charset="UTF-8">
 
-  <!-- Vérification âge -->
+  <!-- ======================================
+       Vérification de l'âge et de la région
+       ====================================== -->
   <script>
-    if (localStorage.getItem("ageVerified") !== "true") {
-      window.location.href = "verificationAge.html";
-    }
-  </script>
+    // On récupère les valeurs stockées
+    const ageVerified = localStorage.getItem("ageVerified");
+    const userRegion = localStorage.getItem("userRegion");
 
-  <!-- Vérification région -->
-  <script>
-    if (!localStorage.getItem("region")) {
+    // Si l'âge n'est pas vérifié → redirection vers verificationAge.html
+    if (ageVerified !== "true") {
+      window.location.href = "verificationAge.html";
+    } 
+    // Si la région n'est pas choisie → redirection vers region.html
+    else if (!userRegion) {
       window.location.href = "region.html";
     }
   </script>
 
   <title>Secret Lounge</title>
 
+  <!-- CSS principal -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- Icônes -->
+  <!-- Icônes Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
@@ -69,6 +74,7 @@
   <img id="modalImg" src="" alt="Image agrandie">
 </div>
 
+<!-- Script pour les profils et le modal -->
 <script src="script.js"></script>
 </body>
 </html>
