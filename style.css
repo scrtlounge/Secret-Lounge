@@ -1,186 +1,69 @@
-*/
 body {
   margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #000, #1a1a1a);
   font-family: Arial, sans-serif;
-  background: #0f0f0f;
-  color: #fff;
-}
-
-/* =================== HEADER =================== */
-header {
-  text-align: center;
-  padding: 30px;
-  background: #000;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.7);
-}
-
-/* =================== LIENS SOCIAUX =================== */
-.links {
-  margin-top: 15px;
   display: flex;
-  gap: 12px;
   justify-content: center;
-  flex-wrap: wrap;
-}
-
-.links a {
-  text-decoration: none;
-  padding: 12px 20px;
-  border-radius: 25px;
-  font-weight: 600;
-  font-size: 16px;
+  align-items: center;
   color: #fff;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: transform 0.2s, opacity 0.2s, box-shadow 0.2s;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-.links a:hover {
-  transform: scale(1.08);
-  opacity: 0.95;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
-}
-
-.facebook { background: #1877f2; }
-.whatsapp { background: #25d366; }
-.telegram { background: #229ed9; }
-
-/* =================== BOUTON INSCRIPTION =================== */
-.signup-btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 16px 36px;
-  background: linear-gradient(135deg, gold, #ffcc00);
-  color: #000;
-  font-weight: bold;
-  font-size: 18px;
-  border-radius: 35px;
-  text-decoration: none;
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.signup-btn:hover {
-  transform: scale(1.08);
-  box-shadow: 0 0 30px rgba(255, 215, 0, 0.7);
-}
-
-/* =================== PROFILES → FLUX VERTICAL =================== */
-.profiles {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px; /* espace entre les cartes */
-  padding: 30px 0;
-}
-
-/* CARDS */
-.card {
-  width: 90%;
-  max-width: 600px;
-  background: #1c1c1c;
-  border: 3px solid #ff69b4; /* contour rose */
+.age-container {
+  background: #111;
+  padding: 40px;
   border-radius: 20px;
-  padding: 20px;
-  box-sizing: border-box;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-  transition: transform 0.3s, box-shadow 0.3s;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.2);
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.7);
+.age-container h1 {
+  color: gold;
+  margin-bottom: 15px;
 }
 
-/* IMAGE PROFIL */
-.card img {
-  width: 100%;
-  height: auto;
-  max-height: 500px;
-  object-fit: cover;
-  display: block;
-  cursor: pointer;
-  border-bottom: 3px solid #ff69b4;
+.age-container p {
+  font-size: 14px;
   margin-bottom: 20px;
-  border-radius: 15px;
-}
-
-/* TITRE, DESCRIPTION ET PRIX */
-.card h3 {
-  margin: 15px 0 10px;
-  font-size: 26px;
-}
-
-.card p {
-  font-size: 20px;
-  padding: 0 10px;
   color: #ccc;
 }
 
-.price {
-  margin: 10px 0;
+.age-container label {
+  display: block;
+  margin-bottom: 8px;
   font-weight: bold;
-  font-size: 22px;
-  color: gold;
 }
 
-/* BOUTONS */
-.reserve-btn, .instructions-btn {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 14px 28px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.reserve-btn {
-  background: #25d366;
-  color: #000;
-}
-
-.reserve-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px #25d366;
-}
-
-.instructions-btn {
-  background: #ff69b4;
-  color: #fff;
-}
-
-.instructions-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px #ff69b4;
-}
-
-/* MODAL IMAGE PLEIN ÉCRAN */
-.modal {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.95);
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  padding: 20px;
-  animation: fadeIn 0.3s ease-in-out;
-}
-
-.modal img {
-  max-width: 95%;
-  max-height: 95%;
-  object-fit: contain;
+.age-container input {
+  width: 100%;
+  padding: 12px;
   border-radius: 10px;
-  box-shadow: 0 0 25px rgba(255,255,255,0.2);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+.age-container button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background: gold;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.age-container button:hover {
+  opacity: 0.9;
+}
+
+.error {
+  color: red;
+  margin-top: 15px;
+  font-size: 14px;
 }
