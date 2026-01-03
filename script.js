@@ -1,0 +1,77 @@
+const profiles = [
+  { name: "Cathy", age: 23, price: "8 000 FCFA", desc: "Élégante et discrète.", img: "images/keli.jpg" },
+  { name: "Chloé", age: 25, price: "10 000 FCFA", desc: "Douce présence, respect absolu.", img: "images/chloé.jpg" },
+  { name: "Jessica", age: 26, price: "14 000 FCFA", desc: "Charme naturel, esprit calme.", img: "images/jessica.jpg" },
+  { name: "Lysette", age: 24, price: "8 000 FCFA", desc: "Allure raffinée, attitude posée.", img: "images/lysette.jpg" },
+  { name: "Merveille", age: 22, price: "9 000 FCFA", desc: "Présence lumineuse, discrétion assurée.", img: "images/merveille.jpg" },
+  { name: "Solange", age: 23, price: "8 000 FCFA", desc: "Élégance mature, échanges respectueux.", img: "images/solange.jpg" },
+  { name: "Marta", age: 25, price: "8 000 FCFA", desc: "Style sobre, charme discret.", img: "images/marta.jpg" },
+  { name: "Nina", age: 23, price: "10 000 FCFA", desc: "Féminité subtile, douceur naturelle.", img: "images/nina.jpg" },
+  { name: "Orphée", age: 24, price: "8 000 FCFA", desc: "Mystérieuse et calme.", img: "images/orphée.jpg" },
+  { name: "Marie", age: 26, price: "9 000 FCFA", desc: "Simplicité chic, élégance naturelle.", img: "images/marie.jpg" },
+  { name: "Lili", age: 22, price: "9 000 FCFA", desc: "Douce et souriante.", img: "images/lili.jpg" },
+  { name: "Léa", age: 24, price: "12 000 FCFA", desc: "Présence délicate, esprit ouvert.", img: "images/léa.jpg" },
+  { name: "Andrea", age: 25, price: "7 000 FCFA", desc: "Allure moderne, discrétion garantie.", img: "images/andrea.jpg" },
+  { name: "Béatrice", age: 28, price: "9 000 FCFA", desc: "Élégance classique, calme assuré.", img: "images/béatrice.jpg" },
+  { name: "Divine", age: 21, price: "8 000 FCFA", desc: "Présence chaleureuse, respect avant tout.", img: "images/divine.jpg" },
+  { name: "Julie", age: 24, price: "7 000 FCFA", desc: "Charme simple, moments choisis.", img: "images/julie.jpg" },
+  { name: "Camille", age: 20, price: "10 000 FCFA", desc: "Brute, audacieuse, respectueuse.", img: "images/camille.jpg" },
+  { name: "Amelie", age: 23, price: "8 000 FCFA", desc: "Élégante et discrète.", img: "images/amelie.jpg" },
+  { name: "Claire", age: 25, price: "7 000 FCFA", desc: "Douce présence, respect absolu.", img: "images/claire.jpg" },
+  { name: "Ines", age: 26, price: "9 000 FCFA", desc: "Charme naturel, esprit calme.", img: "images/ines.jpg" },
+  { name: "Margo", age: 24, price: "8 000 FCFA", desc: "Allure raffinée, attitude posée.", img: "images/margo.jpg" },
+  { name: "Eline", age: 22, price: "10 000 FCFA", desc: "Présence lumineuse, discrétion assurée.", img: "images/eline.jpg" },
+  { name: "Soleil", age: 27, price: "8 000 FCFA", desc: "Élégance mature, échanges respectueux.", img: "images/soleil.jpg" },
+  { name: "Pauline", age: 25, price: "7 000 FCFA", desc: "Style sobre, charme discret.", img: "images/pauline.jpg" },
+  { name: "Melodie", age: 23, price: "8 000 FCFA", desc: "Féminité subtile, douceur naturelle.", img: "images/melodie.jpg" },
+  { name: "Ingrid", age: 24, price: "7 000 FCFA", desc: "Mystérieuse et calme.", img: "images/ingrid.jpg" },
+  { name: "Jade", age: 20, price: "8 000 FCFA", desc: "Simplicité chic, élégance naturelle.", img: "images/jade.jpg" },
+  { name: "Clemence", age: 22, price: "9 000 FCFA", desc: "Douce et souriante.", img: "images/clemence.jpg" },
+  { name: "Mia", age: 24, price: "8 000 FCFA", desc: "Présence délicate, esprit ouvert.", img: "images/mia.jpg" },
+  { name: "Ambre", age: 25, price: "7 000 FCFA", desc: "Allure moderne, discrétion garantie.", img: "images/ambre.jpg" },
+  { name: "Oceane", age: 19, price: "8 000 FCFA", desc: "Élégance classique, calme assuré.", img: "images/oceane.jpg" },
+  { name: "Monique", age: 23, price: "9 000 FCFA", desc: "Présence chaleureuse, respect avant tout.", img: "images/monique.jpg" },
+  { name: "Rose", age: 24, price: "7 000 FCFA", desc: "Charme simple, moments choisis.", img: "images/rose.jpg" },
+  { name: "Emma", age: 21, price: "7 000 FCFA", desc: "Émotive, sensible, libertine.", img: "images/emma.jpg" },
+  { name: "Jeanne", age: 22, price: "8 000 FCFA", desc: "Douce et souriante.", img: "images/Jeanne.jpg" },
+  { name: "Eva", age: 24, price: "8 000 FCFA", desc: "Présence délicate, esprit ouvert.", img: "images/Eva.jpg" },
+  { name: "Sara", age: 25, price: "9 000 FCFA", desc: "Allure moderne, discrétion garantie.", img: "images/Sara.jpg" },
+  { name: "Soradyne", age: 19, price: "10 000 FCFA", desc: "Élégance classique, calme assuré.", img: "images/Soradyne.jpg" },
+  { name: "Stela", age: 23, price: "8 000 FCFA", desc: "Présence chaleureuse, respect avant tout.", img: "images/Stela.jpg" },
+  { name: "Justine", age: 24, price: "10 000 FCFA", desc: "Charme simple, moments choisis.", img: "images/Justine.jpg" }
+];
+
+const container = document.getElementById("profiles");
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImg");
+
+profiles.forEach(profile => {
+  const card = document.createElement("div");
+  card.className = "card";
+
+  const message = `Bonjour, je suis intéressé par ${profile.name} (${profile.age} ans – ${profile.price}).`;
+  const whatsappLink = `https://wa.me/237659183197?text=${encodeURIComponent(message)}`;
+
+  card.innerHTML = `
+    <img src="${profile.img}" alt="${profile.name}" class="profile-img">
+    <h3>${profile.name}, ${profile.age} ans</h3>
+    <p>${profile.desc}</p>
+    <div class="price">${profile.price}</div>
+    <a class="reserve-btn" href="${whatsappLink}" target="_blank">
+      Réserver
+    </a>
+  `;
+
+  const img = card.querySelector(".profile-img");
+  img.addEventListener("click", () => {
+    modal.style.display = "flex";
+    modalImg.src = profile.img;
+  });
+
+  container.appendChild(card);
+});
+
+modal.addEventListener("click", () => {
+  modal.style.display = "none";
+  modalImg.src = "";
+});
