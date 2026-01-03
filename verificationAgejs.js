@@ -17,6 +17,6 @@ function checkAge() {
 
 // Si déjà vérifié → accès direct
 if (localStorage.getItem("ageVerified") === "true") {
-  window.location.href = "index.html";
+  window.location.href = "region.html";
 }
 
