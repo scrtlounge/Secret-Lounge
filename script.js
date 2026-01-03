@@ -1,7 +1,7 @@
 const profiles = [
   { name: "Cathy", age: 23, price: "8 000 FCFA", desc: "Élégante et discrète.", img: "Keli.jpg" },
   { name: "Chloé", age: 25, price: "10 000 FCFA", desc: "Douce présence, respect absolu.", img: "Chloé.jpg" },
-  { name: "Jessica", age: 26, price: "14 000 FCFA", desc: "Charme naturel, esprit calme.", img: "Jessica.jpg" },
+  { name: "Jessica", age: 26, price: "12 000 FCFA", desc: "Charme naturel, esprit calme.", img: "jessica.jpg" },
   { name: "Lysette", age: 24, price: "8 000 FCFA", desc: "Allure raffinée, attitude posée.", img: "Lysette.jpg" },
   { name: "Merveille", age: 22, price: "9 000 FCFA", desc: "Présence lumineuse, discrétion assurée.", img: "Merveille.jpg" },
   { name: "Solange", age: 23, price: "8 000 FCFA", desc: "Élégance mature, échanges respectueux.", img: "Solange.jpg" },
