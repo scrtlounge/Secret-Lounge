@@ -73,7 +73,7 @@ header {
   align-items: center;
   scroll-snap-type: y mandatory; /* 🔥 snap vertical */
   overflow-y: auto;
-  height: 80vh; /* Hauteur visible pour scroll */
+  height: 180vh; /* Hauteur visible pour scroll */
   gap: 0;
   padding: 0;
 }
@@ -81,19 +81,19 @@ header {
 /* CARDS */
 .card {
   scroll-snap-align: start; /* Chaque carte s’aligne au début */
-  width: 100%; /* Occupe toute la largeur */
-  min-height: 80vh; /* Occupe presque toute la fenêtre */
+  width: 200%; /* Occupe toute la largeur */
+  min-height: 180vh; /* Occupe presque toute la fenêtre */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #1c1c1c;
   border: 2px solid #ff69b4; /* contour rose */
-  border-radius: 20px;
-  padding: 20px;
+  border-radius: 90px;
+  padding: 90px;
   box-sizing: border-box;
   margin: 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  box-shadow: 0 14px 42px rgba(0,0,0,0.5);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
