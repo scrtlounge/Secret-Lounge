@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+  /* ===================== LISTE DES PROFILS ===================== */
   const profiles = [
     { name: "Cathy", age: 23, price: "8 000 FCFA", desc: "Élégante et discrète.", img: "Keli.jpg" },
     { name: "Chloé", age: 25, price: "10 000 FCFA", desc: "Douce présence, respect absolu.", img: "Chloé.jpg" },
@@ -43,15 +44,17 @@ document.addEventListener("DOMContentLoaded", () => {
     { name: "Justine", age: 24, price: "10 000 FCFA", desc: "Charme simple, moments choisis.", img: "Justine.jpg" }
   ];
 
+  /* ===================== ÉLÉMENTS DOM ===================== */
   const container = document.getElementById("profiles");
   const modal = document.getElementById("imageModal");
   const modalImg = document.getElementById("modalImg");
 
   if (!container) {
-    console.error("ERREUR : div #profiles introuvable dans le HTML");
+    console.error("ERREUR : #profiles introuvable");
     return;
   }
 
+  /* ===================== AFFICHAGE ===================== */
   profiles.forEach(profile => {
     const card = document.createElement("div");
     card.className = "card";
@@ -60,14 +63,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const whatsappLink = `https://wa.me/237659183197?text=${encodeURIComponent(message)}`;
 
     card.innerHTML = `
-      <img src="${profile.img}" alt="${profile.name}" class="profile-img">
+      <img src="${profile.img}" alt="${profile.name}">
       <h3>${profile.name}, ${profile.age} ans</h3>
       <p>${profile.desc}</p>
       <div class="price">${profile.price}</div>
       <a class="reserve-btn" href="${whatsappLink}" target="_blank">Réserver</a>
     `;
 
-    card.querySelector(".profile-img").addEventListener("click", () => {
+    const img = card.querySelector("img");
+    img.addEventListener("click", () => {
       modal.style.display = "flex";
       modalImg.src = profile.img;
     });
@@ -75,6 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
     container.appendChild(card);
   });
 
+  /* ===================== MODAL ===================== */
   modal.addEventListener("click", () => {
     modal.style.display = "none";
     modalImg.src = "";
