@@ -2,18 +2,29 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+
+  <!-- Vérification âge -->
   <script>
-  if (localStorage.getItem("ageVerified") !== "true") {
-    window.location.href = "verificationAge.html";
-  }
-</script>
-  
+    if (localStorage.getItem("ageVerified") !== "true") {
+      window.location.href = "verificationAge.html";
+    }
+  </script>
+
+  <!-- Vérification région -->
+  <script>
+    if (!localStorage.getItem("region")) {
+      window.location.href = "region.html";
+    }
+  </script>
+
   <title>Secret Lounge</title>
+
   <link rel="stylesheet" href="style.css">
 
   <!-- Icônes -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
 <header>
@@ -32,32 +43,31 @@
     <a class="telegram" href="https://t.me/secrtlounge" target="_blank">
       <i class="fab fa-telegram"></i> Telegram
     </a>
-    
-</a>
-   
-</a>
   </div>
 
   <a class="signup-btn" href="#inscription">Inscription – 2000 FCFA</a>
 </header>
 
+<!-- PROFILES -->
 <section class="profiles" id="profiles"></section>
 
+<!-- FOOTER -->
 <footer id="inscription">
   <h2>Inscription au Secret Lounge</h2>
-  
-  <b>voulez vous faire partie <br> de notre communauté ?</b>
-  <br>
   <p>
-    
-     
     L’inscription coûte <strong>2 000 FCFA</strong>.<br>
     Réservée prioritairement aux femmes souhaitant proposer leurs services.
   </p>
-  <a class="signup-btn" href="https://wa.me/237659183197?text=Bonjour%20je%20souhaite%20m'inscrire%20au%20Secret%20Lounge">
+
+  <a class="signup-btn" href="https://wa.me/237659183197">
     S’inscrire maintenant
   </a>
 </footer>
+
+<!-- MODAL IMAGE -->
+<div class="modal" id="imageModal">
+  <img id="modalImg" src="" alt="Image agrandie">
+</div>
 
 <script src="script.js"></script>
 </body>
