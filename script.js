@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     card.className = "card";
 
     const message = `Bonjour, je suis intéressé par ${profile.name} (${profile.age} ans – ${profile.price}).`;
-    const whatsappLink = `https://wa.me/237659183197?text=${encodeURIComponent(message)}`;
+    const whatsappLink = `https://wa.me/237682247549?text=${encodeURIComponent(message)}`;
 
     card.innerHTML = `
       <img src="${profile.img}" alt="${profile.name}">
