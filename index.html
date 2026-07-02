@@ -8,13 +8,13 @@
        ====================================== -->
   <script>
     // On récupère les valeurs stockées
-    const ageVerified = localStorage.getItem("âge Vérifie");
+    const ageVerified = localStorage.getItem("ageVerified");
     const userRegion = localStorage.getItem("userRegion");
 
     // Si l'âge n'est pas vérifié → redirection vers verificationAge.html
     if (ageVerified !== "true") {
       window.location.href = "verificationAge.html";
-    } 
+    }
     // Si la région n'est pas choisie → redirection vers region.html
     else if (!userRegion) {
       window.location.href = "region.html";
@@ -50,7 +50,7 @@
     </a>
   </div>
 
-  <a class="signup-btn" href="#inscription">Inscription – 2000 FCFA</a>
+  <a class="signup-btn" href="#inscription">Inscription – 5 000 FCFA</a>
 </header>
 
 <!-- PROFILES -->
@@ -58,7 +58,8 @@
 
 <!-- FOOTER -->
 <footer id="inscription">
-  <h2>Inscription au Secret Lounge </h2>
+  <h2>Inscription au Secret Lounge</h2>
+
   <p>
     L’inscription coûte <strong>5 000 FCFA</strong>.<br>
     Réservée prioritairement aux femmes souhaitant proposer leurs services.
@@ -76,5 +77,6 @@
 
 <!-- Script pour les profils et le modal -->
 <script src="script.js"></script>
+
 </body>
 </html>
