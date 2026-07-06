@@ -1,13 +1,11 @@
+
 {
   "countries": [
     {
       "id": "cameroon",
       "name": "Cameroun",
       "flag": "🇨🇲",
-      "language": [
-        "Français",
-        "Anglais"
-      ],
+      "language": ["Français", "Anglais"],
       "currency": "FCFA",
       "currencySymbol": "FCFA",
       "registrationPrice": 5000,
@@ -125,502 +123,107 @@
           ]
         }
       ]
-    }
-  
-
-
-
-
-
-{
-  "id": "senegal",
-  "name": "Sénégal",
-  "flag": "🇸🇳",
-  "language": ["Français", "Wolof"],
-  "currency": "FCFA",
-  "currencySymbol": "FCFA",
-  "registrationPrice": 5000,
-  "whatsapp": "221xxxxxxx",
-  "facebook": "https://m.me/ton_compte_sn",
-  "regions": [
+    },
     {
-      "id": "dakar",
-      "name": "Dakar",
-      "city": "Dakar",
-      "profiles": [
-        { "id": 301, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } },
-        { "id": 302, "name": "Exemple 2", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
+      "id": "senegal",
+      "name": "Sénégal",
+      "flag": "🇸🇳",
+      "language": ["Français", "Wolof"],
+      "currency": "FCFA",
+      "currencySymbol": "FCFA",
+      "registrationPrice": 5000,
+      "whatsapp": "221xxxxxxx",
+      "facebook": "https://m.me/ton_compte_sn",
+      "regions": [
+        {
+          "id": "dakar",
+          "name": "Dakar",
+          "city": "Dakar",
+          "profiles": [
+            { "id": 301, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } },
+            { "id": 302, "name": "Exemple 2", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
+          ]
+        },
+        {
+          "id": "saint_louis",
+          "name": "Saint-Louis",
+          "city": "Saint-Louis",
+          "profiles": [
+            { "id": 303, "name": "Exemple 3", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
+          ]
+        },
+        {
+          "id": "thiès",
+          "name": "Thiès",
+          "city": "Thiès",
+          "profiles": [
+            { "id": 304, "name": "Exemple 4", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
+          ]
+        },
+        { "id": "zyguinchor", "name": "Ziguinchor", "city": "Ziguinchor", "profiles": [] },
+        { "id": "diourbel", "name": "Diourbel", "city": "Diourbel", "profiles": [] },
+        { "id": "kaolack", "name": "Kaolack", "city": "Kaolack", "profiles": [] },
+        { "id": "louga", "name": "Louga", "city": "Louga", "profiles": [] },
+        { "id": "tambacounda", "name": "Tambacounda", "city": "Tambacounda", "profiles": [] },
+        { "id": "kolda", "name": "Kolda", "city": "Kolda", "profiles": [] },
+        { "id": "matam", "name": "Matam", "city": "Matam", "profiles": [] },
+        { "id": "kaffrine", "name": "Kaffrine", "city": "Kaffrine", "profiles": [] },
+        { "id": "kedougou", "name": "Kédougou", "city": "Kédougou", "profiles": [] },
+        { "id": "sedhiou", "name": "Sédhiou", "city": "Sédhiou", "profiles": [] },
+        { "id": "fatick", "name": "Fatick", "city": "Fatick", "profiles": [] }
       ]
     },
     {
-      "id": "saint_louis",
-      "name": "Saint-Louis",
-      "city": "Saint-Louis",
-      "profiles": [
-        { "id": 303, "name": "Exemple 3", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
+      "id": "gabon",
+      "name": "Gabon",
+      "flag": "🇬🇦",
+      "language": ["Français"],
+      "currency": "FCFA",
+      "currencySymbol": "FCFA",
+      "registrationPrice": 5000,
+      "whatsapp": "241xxxxxxx",
+      "facebook": "https://m.me/ton_compte_ga",
+      "regions": [
+        {
+          "id": "estuaire",
+          "name": "Estuaire",
+          "city": "Libreville",
+          "profiles": [
+            { "id": 401, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } },
+            { "id": 402, "name": "Exemple 2", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
+          ]
+        },
+        {
+          "id": "haut_ogooue",
+          "name": "Haut-Ogooué",
+          "city": "Franceville",
+          "profiles": [
+            { "id": 403, "name": "Exemple 3", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
+          ]
+        },
+        { "id": "moyen_ogooue", "name": "Moyen-Ogooué", "city": "Lambaréné", "profiles": [] },
+        { "id": "ngounie", "name": "Ngounié", "city": "Mouila", "profiles": [] },
+        { "id": "nyanga", "name": "Nyanga", "city": "Tchibanga", "profiles": [] },
+        { "id": "ogooue_ivindo", "name": "Ogooué-Ivindo", "city": "Makokou", "profiles": [] },
+        { "id": "ogooue_lolo", "name": "Ogooué-Lolo", "city": "Koulamoutou", "profiles": [] },
+        { "id": "ogooue_maritime", "name": "Ogooué-Maritime", "city": "Port-Gentil", "profiles": [] },
+        { "id": "woleu_ntem", "name": "Woleu-Ntem", "city": "Oyem", "profiles": [] }
       ]
     },
     {
-      "id": "thiès",
-      "name": "Thiès",
-      "city": "Thiès",
-      "profiles": [
-        { "id": 304, "name": "Exemple 4", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-      ]
-    },
-    {
-      "id": "zyguinchor",
-      "name": "Ziguinchor",
-      "city": "Ziguinchor",
-      "profiles": []
-    },
-    {
-      "id": "diourbel",
-      "name": "Diourbel",
-      "city": "Diourbel",
-      "profiles": []
-    },
-    {
-      "id": "kaolack",
-      "name": "Kaolack",
-      "city": "Kaolack",
-      "profiles": []
-    },
-    {
-      "id": "louga",
-      "name": "Louga",
-      "city": "Louga",
-      "profiles": []
-    },
-    {
-      "id": "tambacounda",
-      "name": "Tambacounda",
-      "city": "Tambacounda",
-      "profiles": []
-    },
-    {
-      "id": "kolda",
-      "name": "Kolda",
-      "city": "Kolda",
-      "profiles": []
-    },
-    {
-      "id": "matam",
-      "name": "Matam",
-      "city": "Matam",
-      "profiles": []
-    },
-    {
-      "id": "kaffrine",
-      "name": "Kaffrine",
-      "city": "Kaffrine",
-      "profiles": []
-    },
-    {
-      "id": "kedougou",
-      "name": "Kédougou",
-      "city": "Kédougou",
-      "profiles": []
-    },
-    {
-      "id": "sedhiou",
-      "name": "Sédhiou",
-      "city": "Sédhiou",
-      "profiles": []
-    },
-    {
-      "id": "fatick",
-      "name": "Fatick",
-      "city": "Fatick",
-      "profiles": []
-    }
-  ]
-}
-
-
-{
-  "id": "gabon",
-  "name": "Gabon",
-  "flag": "🇬🇦",
-  "language": ["Français"],
-  "currency": "FCFA",
-  "currencySymbol": "FCFA",
-  "registrationPrice": 5000,
-  "whatsapp": "241xxxxxxx",
-  "facebook": "https://m.me/ton_compte_ga",
-  "regions": [
-    {
-      "id": "estuaire",
-      "name": "Estuaire",
-      "city": "Libreville",
-      "profiles": [
-        { "id": 401, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } },
-        { "id": 402, "name": "Exemple 2", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-      ]
-    },
-    {
-      "id": "haut_ogooue",
-      "name": "Haut-Ogooué",
-      "city": "Franceville",
-      "profiles": [
-        { "id": 403, "name": "Exemple 3", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-      ]
-    },
-    {
-      "id": "moyen_ogooue",
-      "name": "Moyen-Ogooué",
-      "city": "Lambaréné",
-      "profiles": []
-    },
-    {
-      "id": "ngounie",
-      "name": "Ngounié",
-      "city": "Mouila",
-      "profiles": []
-    },
-    {
-      "id": "nyanga",
-      "name": "Nyanga",
-      "city": "Tchibanga",
-      "profiles": []
-    },
-    {
-      "id": "ogooue_ivindo",
-      "name": "Ogooué-Ivindo",
-      "city": "Makokou",
-      "profiles": []
-    },
-    {
-      "id": "ogooue_lolo",
-      "name": "Ogooué-Lolo",
-      "city": "Koulamoutou",
-      "profiles": []
-    },
-    {
-      "id": "ogooue_maritime",
-      "name": "Ogooué-Maritime",
-      "city": "Port-Gentil",
-      "profiles": []
-    },
-    {
-      "id": "woleu_ntem",
-      "name": "Woleu-Ntem",
-      "city": "Oyem",
-      "profiles": []
-    }
-  ]
-}
-
-{
-  "id": "ivory_coast",
-  "name": "Côte d'Ivoire",
-  "flag": "🇨🇮",
-  "language": ["Français"],
-  "currency": "FCFA",
-  "currencySymbol": "FCFA",
-  "registrationPrice": 5000,
-  "whatsapp": "225xxxxxxx",
-  "facebook": "https://m.me/ton_compte_ci",
-  "regions": [
-    {
-      "id": "abidjan",
-      "name": "District Autonome d'Abidjan",
-      "city": "Abidjan",
-      "profiles": [
-        { "id": 501, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } },
-        { "id": 502, "name": "Exemple 2", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-      ]
-    },
-    {
-      "id": "yamoussoukro",
-      "name": "District Autonome de Yamoussoukro",
-      "city": "Yamoussoukro",
-      "profiles": [
-        { "id": 503, "name": "Exemple 3", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-      ]
-    },
-    {
-      "id": "san_pedro",
-      "name": "San-Pédro",
-      "city": "San-Pédro",
-      "profiles": []
-    },
-    {
-      "id": "poro",
-      "name": "Poro",
-      "city": "Korhogo",
-      "profiles": []
-    },
-    {
-      "id": "gbeke",
-      "name": "Gbêkê",
-      "city": "Bouaké",
-      "profiles": []
-    },
-    {
-      "id": "haut_sassandra",
-      "name": "Haut-Sassandra",
-      "city": "Daloa",
-      "profiles": []
-    },
-    {
-      "id": "indenie_djuablin",
-      "name": "Indénié-Djuablin",
-      "city": "Abengourou",
-      "profiles": []
-    },
-    {
-      "id": "goh",
-      "name": "Gôh",
-      "city": "Gagnoa",
-      "profiles": []
-    },
-    {
-      "id": "nzi",
-      "name": "N'Zi",
-      "city": "Dimbokro",
-      "profiles": []
-    },
-    {
-      "id": "grands_ponts",
-      "name": "Grands-Ponts",
-      "city": "Dabou",
-      "profiles": []
-    },
-    {
-      "id": "sud_comoe",
-      "name": "Sud-Comoé",
-      "city": "Aboisso",
-      "profiles": []
-    },
-    {
-      "id": "tonkpi",
-      "name": "Tonkpi",
-      "city": "Man",
-      "profiles": []
-    }
-  ]
-}
-{
-  "id": "niger",
-  "name": "Niger",
-  "flag": "🇳🇪",
-  "language": ["Français", "Haoussa", "Djerma"],
-  "currency": "FCFA",
-  "currencySymbol": "FCFA",
-  "registrationPrice": 5000,
-  "whatsapp": "227xxxxxxx",
-  "facebook": "https://m.me/ton_compte_ne",
-  "regions": [
-    { "id": "niamey", "name": "Niamey", "city": "Niamey", "profiles": [] },
-    { "id": "agadez", "name": "Agadez", "city": "Agadez", "profiles": [] },
-    { "id": "maradi", "name": "Maradi", "city": "Maradi", "profiles": [] },
-    { "id": "zinder", "name": "Zinder", "city": "Zinder", "profiles": [] },
-    { "id": "tahoua", "name": "Tahoua", "city": "Tahoua", "profiles": [] },
-    { "id": "dosso", "name": "Dosso", "city": "Dosso", "profiles": [] },
-    { "id": "tillaberi", "name": "Tillabéri", "city": "Tillabéri", "profiles": [] },
-    { "id": "diffa", "name": "Diffa", "city": "Diffa", "profiles": [] }
-  ]
-}
-{
-  "id": "nigeria",
-  "name": "Nigeria",
-  "flag": "🇳🇬",
-  "language": ["English", "Yoruba", "Hausa", "Igbo"],
-  "currency": "Naira",
-  "currencySymbol": "₦",
-  "registrationPrice": 5000,
-  "whatsapp": "234xxxxxxx",
-  "facebook": "https://m.me/ton_compte_ng",
-  "regions": [
-    { "id": "lagos", "name": "Lagos", "city": "Lagos", "profiles": [] },
-    { "id": "abuja", "name": "Federal Capital Territory", "city": "Abuja", "profiles": [] },
-    { "id": "kano", "name": "Kano", "city": "Kano", "profiles": [] },
-    { "id": "rivers", "name": "Rivers", "city": "Port Harcourt", "profiles": [] },
-    { "id": "oyo", "name": "Oyo", "city": "Ibadan", "profiles": [] },
-    { "id": "anambra", "name": "Anambra", "city": "Awka", "profiles": [] }
-  ]
-}
-{
-  "id": "gambia",
-  "name": "Gambie",
-  "flag": "🇬🇲",
-  "language": ["English", "Mandinka", "Wolof"],
-  "currency": "Dalasi",
-  "currencySymbol": "D",
-  "registrationPrice": 5000,
-  "whatsapp": "220xxxxxxx",
-  "facebook": "https://m.me/ton_compte_gm",
-  "regions": [
-    { "id": "banjul", "name": "Banjul", "city": "Banjul", "profiles": [] },
-    { "id": "kanifing", "name": "Kanifing", "city": "Kanifing", "profiles": [] },
-    { "id": "west_coast", "name": "West Coast", "city": "Brikama", "profiles": [] },
-    { "id": "north_bank", "name": "North Bank", "city": "Kerewan", "profiles": [] },
-    { "id": "lower_river", "name": "Lower River", "city": "Mansa Konko", "profiles": [] }
-  ]
-}
-{
-  "id": "algeria",
-  "name": "Algérie",
-  "flag": "🇩🇿",
-  "language": ["Arabe", "Berbère", "Français"],
-  "currency": "Dinar Algérien",
-  "currencySymbol": "DA",
-  "registrationPrice": 5000,
-  "whatsapp": "213xxxxxxx",
-  "facebook": "https://m.me/ton_compte_dz",
-  "regions": [
-    { "id": "alger", "name": "Alger", "city": "Alger", "profiles": [] },
-    { "id": "oran", "name": "Oran", "city": "Oran", "profiles": [] },
-    { "id": "constantine", "name": "Constantine", "city": "Constantine", "profiles": [] },
-    { "id": "annaba", "name": "Annaba", "city": "Annaba", "profiles": [] },
-    { "id": "tamanrasset", "name": "Tamanrasset", "city": "Tamanrasset", "profiles": [] },
-    { "id": "ghardaia", "name": "Ghardaïa", "city": "Ghardaïa", "profiles": [] }
-  ]
-}
-
-
-
-{
-  "id": "chad",
-  "name": "Tchad",
-  "flag": "🇹🇩",
-  "language": ["Français", "Arabe"],
-  "currency": "FCFA",
-  "currencySymbol": "FCFA",
-  "registrationPrice": 5000,
-  "whatsapp": "235xxxxxxx",
-  "facebook": "https://m.me/ton_compte_td",
-  "regions": [
-    { "id": "ndjamena", "name": "N'Djaména", "city": "N'Djaména", "profiles": [] },
-    { "id": "chari_baguirmi", "name": "Chari-Baguirmi", "city": "Massenya", "profiles": [] },
-    { "id": "logone_occidental", "name": "Logone Occidental", "city": "Moundou", "profiles": [] },
-    { "id": "moyen_chari", "name": "Moyen-Chari", "city": "Sarh", "profiles": [] },
-    { "id": "ouaddai", "name": "Ouaddaï", "city": "Abéché", "profiles": [] }
-  ]
-}
-
-
-{
-  "id": "congo",
-  "name": "Congo",
-  "flag": "🇨🇬",
-  "language": ["Français", "Lingala", "Kituba"],
-  "currency": "FCFA",
-  "currencySymbol": "FCFA",
-  "registrationPrice": 5000,
-  "whatsapp": "242xxxxxxx",
-  "facebook": "https://m.me/ton_compte_cg",
-  "regions": [
-    { "id": "brazzaville", "name": "Brazzaville", "city": "Brazzaville", "profiles": [] },
-    { "id": "pointe_noire", "name": "Pointe-Noire", "city": "Pointe-Noire", "profiles": [] },
-    { "id": "kouilou", "name": "Kouilou", "city": "Loango", "profiles": [] },
-    { "id": "niari", "name": "Niari", "city": "Dolisie", "profiles": [] },
-    { "id": "bouenza", "name": "Bouenza", "city": "Madingou", "profiles": [] }
-  ]
-}
-
-
-
-{
-  "id": "burkina_faso",
-  "name": "Burkina Faso",
-  "flag": "🇧🇫",
-  "language": ["Français", "Mooré", "Dioula"],
-  "currency": "FCFA",
-  "currencySymbol": "FCFA",
-  "registrationPrice": 5000,
-  "whatsapp": "226xxxxxxx",
-  "facebook": "https://m.me/ton_compte_bf",
-  "regions": [
-    { "id": "centre", "name": "Centre", "city": "Ouagadougou", "profiles": [] },
-    { "id": "hauts_bassins", "name": "Hauts-Bassins", "city": "Bobo-Dioulasso", "profiles": [] },
-    { "id": "nord", "name": "Nord", "city": "Ouahigouya", "profiles": [] },
-    { "id": "centre_ouest", "name": "Centre-Ouest", "city": "Koudougou", "profiles": [] },
-    { "id": "est", "name": "Est", "city": "Fada N'Gourma", "profiles": [] }
-  ]
-}
-
-
-
-{
-  "id": "mali",
-  "name": "Mali",
-  "flag": "🇲🇱",
-  "language": ["Bambara", "Français"],
-  "currency": "FCFA",
-  "currencySymbol": "FCFA",
-  "registrationPrice": 5000,
-  "whatsapp": "223xxxxxxx",
-  "facebook": "https://m.me/ton_compte_ml",
-  "regions": [
-    { "id": "bamako", "name": "District de Bamako", "city": "Bamako", "profiles": [] },
-    { "id": "kayes", "name": "Kayes", "city": "Kayes", "profiles": [] },
-    { "id": "koulikoro", "name": "Koulikoro", "city": "Koulikoro", "profiles": [] },
-    { "id": "sikasso", "name": "Sikasso", "city": "Sikasso", "profiles": [] },
-    { "id": "segou", "name": "Ségou", "city": "Ségou", "profiles": [] },
-    { "id": "mopti", "name": "Mopti", "city": "Mopti", "profiles": [] }
-  ]
-}
-
-
-{
-  "id": "morocco",
-  "name": "Maroc",
-  "flag": "🇲🇦",
-  "language": ["Arabe", "Berbère", "Français"],
-  "currency": "Dirham Marocain",
-  "currencySymbol": "DH",
-  "registrationPrice": 5000,
-  "whatsapp": "212xxxxxxx",
-  "facebook": "https://m.me/ton_compte_ma",
-  "regions": [
-    { "id": "rabat_sale_kenitra", "name": "Rabat-Salé-Kénitra", "city": "Rabat", "profiles": [] },
-    { "id": "casablanca_settat", "name": "Casablanca-Settat", "city": "Casablanca", "profiles": [] },
-    { "id": "marrakech_safi", "name": "Marrakech-Safi", "city": "Marrakech", "profiles": [] },
-    { "id": "fes_meknes", "name": "Fès-Meknès", "city": "Fès", "profiles": [] },
-    { "id": "tanger_tetouan_al_hoceima", "name": "Tanger-Tétouan-Al Hoceïma", "city": "Tanger", "profiles": [] },
-    { "id": "souss_massa", "name": "Souss-Massa", "city": "Agadir", "profiles": [] }
-  ]
-}
-
-
-{
-  "id": "tunisia",
-  "name": "Tunisie",
-  "flag": "🇹🇳",
-  "language": ["Arabe", "Français"],
-  "currency": "Dinar Tunisien",
-  "currencySymbol": "DT",
-  "registrationPrice": 5000,
-  "whatsapp": "216xxxxxxx",
-  "facebook": "https://m.me/ton_compte_tn",
-  "regions": [
-    { "id": "tunis", "name": "Tunis", "city": "Tunis", "profiles": [] },
-    { "id": "sfax", "name": "Sfax", "city": "Sfax", "profiles": [] },
-    { "id": "sousse", "name": "Sousse", "city": "Sousse", "profiles": [] },
-    { "id": "ariana", "name": "Ariana", "city": "Ariana", "profiles": [] },
-    { "id": "bizerte", "name": "Bizerte", "city": "Bizerte", "profiles": [] },
-    { "id": "gabez", "name": "Gabès", "city": "Gabès", "profiles": [] }
-  ]
-}
-
-
-{
-  "id": "togo",
-  "name": "Togo",
-  "flag": "🇹🇬",
-  "language": ["Français", "Éwé", "Kabyè"],
-  "currency": "FCFA",
-  "currencySymbol": "FCFA",
-  "registrationPrice": 5000,
-  "whatsapp": "228xxxxxxx",
-  "facebook": "https://m.me/ton_compte_tg",
-  "regions": [
-    { "id": "maritime", "name": "Maritime", "city": "Lomé", "profiles": [] },
-    { "id": "plateaux", "name": "Plateaux", "city": "Atakpamé", "profiles": [] },
-    { "id": "centrale", "name": "Centrale", "city": "Sokodé", "profiles": [] },
-    { "id": "kara", "name": "Kara", "city": "Kara", "profiles": [] },
-    { "id": "savanes", "name": "Savanes", "city": "Dapaong", "profiles": [] }
-  ]
-}
+      "id": "ivory_coast",
+      "name": "Côte d'Ivoire",
+      "flag": "🇨🇮",
+      "language": ["Français"],
+      "currency": "FCFA",
+      "currencySymbol": "FCFA",
+      "registrationPrice": 5000,
+      "whatsapp": "225xxxxxxx",
+      "facebook": "https://m.me/ton_compte_ci",
+      "regions": [
+        {
+          "id": "abidjan",
+          "name": "District Autonome d'Abidjan",
+          "city": "Abidjan",
+          "profiles": [
+            { "id": 501, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos
