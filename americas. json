@@ -800,4 +800,20 @@
           "name": "Îles Malouines",
           "flag": "🇫🇰",
           "language": [
-            "Anglais" 
+                      "Anglais"
+        ],
+        "currency": "Livre des Îles Malouines",
+        "currencySymbol": "FKP",
+        "regions": [
+          {
+            "id": "stanley",
+            "name": "Îles Malouines",
+            "city": "Stanley",
+            "profiles": []
+          }
+        ]
+      }
+    ]
+  }
+]
+}
