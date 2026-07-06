@@ -1,0 +1,255 @@
+{
+  "continent": "Asie",
+  "countries": [
+    {
+      "id": "japan",
+      "name": "Japon",
+      "flag": "🇯🇵",
+      "language": ["Japonais"],
+      "currency": "Yen",
+      "currencySymbol": "JPY",
+      "regions": [
+        { "id": "tokyo", "name": "Tokyo", "city": "Tokyo", "profiles": [] },
+        { "id": "osaka", "name": "Osaka", "city": "Osaka", "profiles": [] },
+        { "id": "kyoto", "name": "Kyoto", "city": "Kyoto", "profiles": [] },
+        { "id": "hokkaido", "name": "Hokkaidō", "city": "Sapporo", "profiles": [] }
+      ]
+    },
+    {
+      "id": "china",
+      "name": "Chine",
+      "flag": "🇨🇳",
+      "language": ["Mandarin"],
+      "currency": "Yuan",
+      "currencySymbol": "CNY",
+      "regions": [
+        { "id": "beijing", "name": "Pékin", "city": "Pékin", "profiles": [] },
+        { "id": "shanghai", "name": "Shanghai", "city": "Shanghai", "profiles": [] },
+        { "id": "guangdong", "name": "Guangdong", "city": "Guangzhou", "profiles": [] },
+        { "id": "sichuan", "name": "Sichuan", "city": "Chengdu", "profiles": [] }
+      ]
+    },
+    {
+      "id": "south_korea",
+      "name": "Corée du Sud",
+      "flag": "🇰🇷",
+      "language": ["Coréen"],
+      "currency": "Won",
+      "currencySymbol": "KRW",
+      "regions": [
+        { "id": "seoul", "name": "Séoul", "city": "Séoul", "profiles": [] },
+        { "id": "busan", "name": "Busan", "city": "Busan", "profiles": [] },
+        { "id": "jeju", "name": "Jeju", "city": "Jeju-si", "profiles": [] }
+      ]
+    },
+    {
+      "id": "india",
+      "name": "Inde",
+      "flag": "🇮🇳",
+      "language": ["Hindi", "Anglais"],
+      "currency": "Roupie indienne",
+      "currencySymbol": "INR",
+      "regions": [
+        { "id": "delhi", "name": "Delhi", "city": "New Delhi", "profiles": [] },
+        { "id": "maharashtra", "name": "Maharashtra", "city": "Mumbai", "profiles": [] },
+        { "id": "rajasthan", "name": "Rajasthan", "city": "Jaipur", "profiles": [] },
+        { "id": "kerala", "name": "Kerala", "city": "Kochi", "profiles": [] }
+      ]
+    },
+    {
+      "id": "thailand",
+      "name": "Thaïlande",
+      "flag": "🇹🇭",
+      "language": ["Thaï"],
+      "currency": "Baht",
+      "currencySymbol": "THB",
+      "regions": [
+        { "id": "bangkok", "name": "Bangkok", "city": "Bangkok", "profiles": [] },
+        { "id": "chiang_mai", "name": "Chiang Mai", "city": "Chiang Mai", "profiles": [] },
+        { "id": "phuket", "name": "Phuket", "city": "Phuket", "profiles": [] }
+      ]
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "language": ["Vietnamien"],
+      "currency": "Dong",
+      "currencySymbol": "VND",
+      "regions": [
+        { "id": "hanoi", "name": "Hanoï", "city": "Hanoï", "profiles": [] },
+        { "id": "ho_chi_minh", "name": "Hô-Chi-Minh-Ville", "city": "Hô-Chi-Minh-Ville", "profiles": [] },
+        { "id": "da_nang", "name": "Đà Nẵng", "city": "Đà Nẵng", "profiles": [] }
+      ]
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonésie",
+      "flag": "🇮🇩",
+      "language": ["Indonésien"],
+      "currency": "Roupie indonésienne",
+      "currencySymbol": "IDR",
+      "regions": [
+        { "id": "jakarta", "name": "Jakarta", "city": "Jakarta", "profiles": [] },
+        { "id": "bali", "name": "Bali", "city": "Denpasar", "profiles": [] },
+        { "id": "yogyakarta", "name": "Yogyakarta", "city": "Yogyakarta", "profiles": [] }
+      ]
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaisie",
+      "flag": "🇲🇾",
+      "language": ["Malais", "Anglais"],
+      "currency": "Ringgit",
+      "currencySymbol": "MYR",
+      "regions": [
+        { "id": "kuala_lumpur", "name": "Kuala Lumpur", "city": "Kuala Lumpur", "profiles": [] },
+        { "id": "penang", "name": "Penang", "city": "George Town", "profiles": [] }
+      ]
+    },
+    {
+      "id": "singapore",
+      "name": "Singapour",
+      "flag": "🇸🇬",
+      "language": ["Anglais", "Mandarin", "Malais"],
+      "currency": "Dollar de Singapour",
+      "currencySymbol": "SGD",
+      "regions": [
+        { "id": "singapore_city", "name": "Singapour", "city": "Singapour", "profiles": [] }
+      ]
+    },
+    {
+      "id": "philippines",
+      "name": "Philippines",
+      "flag": "🇵🇭",
+      "language": ["Filipino", "Anglais"],
+      "currency": "Peso philippin",
+      "currencySymbol": "PHP",
+      "regions": [
+        { "id": "manille", "name": "Metro Manille", "city": "Manille", "profiles": [] },
+        { "id": "cebu", "name": "Cebu", "city": "Cebu City", "profiles": [] },
+        { "id": "palawan", "name": "Palawan", "city": "El Nido", "profiles": [] }
+      ]
+    },
+    {
+      "id": "cambodia",
+      "name": "Cambodge",
+      "flag": "🇰🇭",
+      "language": ["Khmer"],
+      "currency": "Riel",
+      "currencySymbol": "KHR",
+      "regions": [
+        { "id": "phnom_penh", "name": "Phnom Penh", "city": "Phnom Penh", "profiles": [] },
+        { "id": "siem_reap", "name": "Siem Reap", "city": "Siem Reap", "profiles": [] }
+      ]
+    },
+    {
+      "id": "laos",
+      "name": "Laos",
+      "flag": "🇱🇦",
+      "language": ["Lao"],
+      "currency": "Kip",
+      "currencySymbol": "LAK",
+      "regions": [
+        { "id": "vientiane", "name": "Vientiane", "city": "Vientiane", "profiles": [] },
+        { "id": "luang_prabang", "name": "Luang Prabang", "city": "Luang Prabang", "profiles": [] }
+      ]
+    },
+    {
+      "id": "myanmar",
+      "name": "Myanmar",
+      "flag": "🇲🇲",
+      "language": ["Birman"],
+      "currency": "Kyat",
+      "currencySymbol": "MMK",
+      "regions": [
+        { "id": "yangon", "name": "Yangon", "city": "Yangon", "profiles": [] },
+        { "id": "mandalay", "name": "Mandalay", "city": "Mandalay", "profiles": [] }
+      ]
+    },
+    {
+      "id": "nepal",
+      "name": "Népal",
+      "flag": "🇳🇵",
+      "language": ["Népalais"],
+      "currency": "Roupie népalaise",
+      "currencySymbol": "NPR",
+      "regions": [
+        { "id": "kathmandu", "name": "Bagmati", "city": "Katmandou", "profiles": [] },
+        { "id": "gandaki", "name": "Gandaki", "city": "Pokhara", "profiles": [] }
+      ]
+    },
+    {
+      "id": "sri_lanka",
+      "name": "Sri Lanka",
+      "flag": "🇱🇰",
+      "language": ["Cingalais", "Tamoul"],
+      "currency": "Roupie srilankaise",
+      "currencySymbol": "LKR",
+      "regions": [
+        { "id": "colombo", "name": "Colombo", "city": "Colombo", "profiles": [] },
+        { "id": "kandy", "name": "Kandy", "city": "Kandy", "profiles": [] }
+      ]
+    },
+    {
+      "id": "bangladesh",
+      "name": "Bangladesh",
+      "flag": "🇧🇩",
+      "language": ["Bengali"],
+      "currency": "Taka",
+      "currencySymbol": "BDT",
+      "regions": [
+        { "id": "dhaka", "name": "Dhaka", "city": "Dhaka", "profiles": [] }
+      ]
+    },
+    {
+      "id": "pakistan",
+      "name": "Pakistan",
+      "flag": "🇵🇰",
+      "language": ["Ourdou", "Anglais"],
+      "currency": "Roupie pakistanaise",
+      "currencySymbol": "PKR",
+      "regions": [
+        { "id": "islamabad", "name": "Islamabad", "city": "Islamabad", "profiles": [] },
+        { "id": "punjab_pk", "name": "Pendjab", "city": "Lahore", "profiles": [] }
+      ]
+    },
+    {
+      "id": "uae",
+      "name": "Émirats Arabes Unis",
+      "flag": "🇦🇪",
+      "language": ["Arabe"],
+      "currency": "Dirham des É.A.U.",
+      "currencySymbol": "AED",
+      "regions": [
+        { "id": "dubai", "name": "Dubaï", "city": "Dubaï", "profiles": [] },
+        { "id": "abu_dhabi", "name": "Abou Dabi", "city": "Abou Dabi", "profiles": [] }
+      ]
+    },
+    {
+      "id": "saudi_arabia",
+      "name": "Arabie Saoudite",
+      "flag": "🇸🇦",
+      "language": ["Arabe"],
+      "currency": "Riyal saoudien",
+      "currencySymbol": "SAR",
+      "regions": [
+        { "id": "riyad", "name": "Riyad", "city": "Riyad", "profiles": [] },
+        { "id": "makkah", "name": "La Mecque", "city": "Djeddah", "profiles": [] }
+      ]
+    },
+    {
+      "id": "turkey",
+      "name": "Turquie",
+      "flag": "🇹🇷",
+      "language": ["Turc"],
+      "currency": "Livre turque",
+      "currencySymbol": "TRY",
+      "regions": [
+        { "id": "istanbul", "name": "Istanbul", "city": "Istanbul", "profiles": [] },
+        { "id": "antalya", "name": "Antalya", "city": "Antalya", "profiles": [] },
+        { "id": "cappadoce", "name": "Nevşehir", "city": "Cappadoce", "profiles": [] }
+      ]
+    }
+  ]
+}
