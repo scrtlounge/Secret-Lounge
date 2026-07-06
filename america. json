@@ -1,5 +1,4 @@
-
-    {
+   {
       "continent": "america",
       "countries": [
         {
@@ -310,5 +309,4 @@
         }
       ]
     }
-  ]
-}
+  
