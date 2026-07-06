@@ -105,21 +105,305 @@
           "id": "littoral",
           "name": "Littoral",
           "city": "Douala",
-          "profiles": []
+          "profiles": [
+
+
+
+      {
+              "id": 1,
+              "name": "Jessica",
+              "age": 22,
+              "description": "Élégante et discrète",
+              "image": "Jessica.jpg",
+
+"video": "videos/jessica.mp4",
+
+              "status": "available",
+              "statusText": "Disponible maintenant",
+              "prices": {
+                "30min": "10000",
+                "1h": "18000",
+                "night": "70000",
+                "day": "120000"
+              }
+            },
+            {
+              "id": 2,
+              "name": "Julie",
+              "age": 24,
+              "description": "Douce et souriante",
+              "image": "Julie.jpg",
+
+"video": "videos/Julie.mp4",
+              "status": "busy",
+              "statusText": "Se libère dans 10 min",
+              "prices": {
+                "30min": "7000",
+                "1h30": "10000",
+                "night": "35000",
+                "day": "50000"
+              }
+            }
+
+
+
+
+{
+              "id": 3,
+              "name": "Emma",
+              "age": 24,
+              "description": "Douce et souriante",
+              "image": "Emma.jpg",
+
+"video": "videos/Emma.mp4",
+              "status": "busy",
+              "statusText": "Se libère dans 35 min",
+              "prices": {
+                "30min": "5000",
+                "1h": "9000",
+                "night": "30000",
+                "day": "40000"
+              }
+            }
+
+
+{
+              "id": 4,
+              "name": "Monique",
+              "age": 23,
+              "description": " Emotif",
+              "image": "Monique.jpg",
+
+"video": "videos/Monique.mp4",
+
+              "status": "busy",
+              "statusText": "Se libère dans 35 min",
+              "prices": {
+                "30min": "5000",
+                "1h": "8000",
+                "night": "30000",
+                "day": "40000"
+              }
+            }
+
+          ]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
         },
 
         {
           "id": "ouest",
           "name": "Ouest",
           "city": "Bafoussam",
-          "profiles": []
+          "profiles": [
+
+
+
+      {
+              "id": 1,
+              "name": "Jessica",
+              "age": 22,
+              "description": "Élégante et discrète",
+              "image": "Jessica.jpg",
+
+"video": "videos/jessica.mp4",
+
+              "status": "available",
+              "statusText": "Disponible maintenant",
+              "prices": {
+                "30min": "10000",
+                "1h": "18000",
+                "night": "70000",
+                "day": "120000"
+              }
+            },
+            {
+              "id": 2,
+              "name": "Julie",
+              "age": 24,
+              "description": "Douce et souriante",
+              "image": "Julie.jpg",
+
+"video": "videos/Julie.mp4",
+              "status": "busy",
+              "statusText": "Se libère dans 10 min",
+              "prices": {
+                "30min": "7000",
+                "1h30": "10000",
+                "night": "35000",
+                "day": "50000"
+              }
+            }
+
+
+
+
+{
+              "id": 3,
+              "name": "Emma",
+              "age": 24,
+              "description": "Douce et souriante",
+              "image": "Emma.jpg",
+
+"video": "videos/Emma.mp4",
+              "status": "busy",
+              "statusText": "Se libère dans 35 min",
+              "prices": {
+                "30min": "5000",
+                "1h": "9000",
+                "night": "30000",
+                "day": "40000"
+              }
+            }
+
+
+{
+              "id": 4,
+              "name": "Monique",
+              "age": 23,
+              "description": " Emotif",
+              "image": "Monique.jpg",
+
+"video": "videos/Monique.mp4",
+
+              "status": "busy",
+              "statusText": "Se libère dans 35 min",
+              "prices": {
+                "30min": "5000",
+                "1h": "8000",
+                "night": "30000",
+                "day": "40000"
+              }
+            }
+
+          ]
+        },
+
+
+
+
+
+]
         },
 
         {
           "id": "nord",
           "name": "Nord",
           "city": "Garoua",
-          "profiles": []
+          "profiles": [
+
+
+
+      {
+              "id": 1,
+              "name": "Jessica",
+              "age": 22,
+              "description": "Élégante et discrète",
+              "image": "Jessica.jpg",
+
+"video": "videos/jessica.mp4",
+
+              "status": "available",
+              "statusText": "Disponible maintenant",
+              "prices": {
+                "30min": "10000",
+                "1h": "18000",
+                "night": "70000",
+                "day": "120000"
+              }
+            },
+            {
+              "id": 2,
+              "name": "Julie",
+              "age": 24,
+              "description": "Douce et souriante",
+              "image": "Julie.jpg",
+
+"video": "videos/Julie.mp4",
+              "status": "busy",
+              "statusText": "Se libère dans 10 min",
+              "prices": {
+                "30min": "7000",
+                "1h30": "10000",
+                "night": "35000",
+                "day": "50000"
+              }
+            }
+
+
+
+
+{
+              "id": 3,
+              "name": "Emma",
+              "age": 24,
+              "description": "Douce et souriante",
+              "image": "Emma.jpg",
+
+"video": "videos/Emma.mp4",
+              "status": "busy",
+              "statusText": "Se libère dans 35 min",
+              "prices": {
+                "30min": "5000",
+                "1h": "9000",
+                "night": "30000",
+                "day": "40000"
+              }
+            }
+
+
+{
+              "id": 4,
+              "name": "Monique",
+              "age": 23,
+              "description": " Emotif",
+              "image": "Monique.jpg",
+
+"video": "videos/Monique.mp4",
+
+              "status": "busy",
+              "statusText": "Se libère dans 35 min",
+              "prices": {
+                "30min": "5000",
+                "1h": "8000",
+                "night": "30000",
+                "day": "40000"
+              }
+            }
+
+          ]
+        },
+
+
+
+]
         }
       ]
     }
