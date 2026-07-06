@@ -1,0 +1,41 @@
+{
+  "countries": [
+    {
+      "id": "cameroon",
+      "name": "Cameroun",
+      "flag": "🇨🇲",
+      "language": [
+        "Français",
+        "Anglais"
+      ],
+      "currency": "FCFA",
+      "currencySymbol": "FCFA",
+      "registrationPrice": 5000,
+      "whatsapp": "237682247549",
+      "facebook": "https://m.me/ton_compte",
+
+      "regions": [
+        {
+          "id": "centre",
+          "name": "Centre",
+          "city": "Yaoundé"
+        },
+        {
+          "id": "littoral",
+          "name": "Littoral",
+          "city": "Douala"
+        },
+        {
+          "id": "ouest",
+          "name": "Ouest",
+          "city": "Bafoussam"
+        },
+        {
+          "id": "nord",
+          "name": "Nord",
+          "city": "Garoua"
+        }
+      ]
+    }
+  ]
+}
