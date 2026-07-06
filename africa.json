@@ -128,3 +128,111 @@
     }
   ]
 }
+
+
+
+
+{
+  "id": "senegal",
+  "name": "Sénégal",
+  "flag": "🇸🇳",
+  "language": ["Français", "Wolof"],
+  "currency": "FCFA",
+  "currencySymbol": "FCFA",
+  "registrationPrice": 5000,
+  "whatsapp": "221xxxxxxx",
+  "facebook": "https://m.me/ton_compte_sn",
+  "regions": [
+    {
+      "id": "dakar",
+      "name": "Dakar",
+      "city": "Dakar",
+      "profiles": [
+        { "id": 301, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } },
+        { "id": 302, "name": "Exemple 2", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
+      ]
+    },
+    {
+      "id": "saint_louis",
+      "name": "Saint-Louis",
+      "city": "Saint-Louis",
+      "profiles": [
+        { "id": 303, "name": "Exemple 3", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
+      ]
+    },
+    {
+      "id": "thiès",
+      "name": "Thiès",
+      "city": "Thiès",
+      "profiles": [
+        { "id": 304, "name": "Exemple 4", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
+      ]
+    },
+    {
+      "id": "zyguinchor",
+      "name": "Ziguinchor",
+      "city": "Ziguinchor",
+      "profiles": []
+    },
+    {
+      "id": "diourbel",
+      "name": "Diourbel",
+      "city": "Diourbel",
+      "profiles": []
+    },
+    {
+      "id": "kaolack",
+      "name": "Kaolack",
+      "city": "Kaolack",
+      "profiles": []
+    },
+    {
+      "id": "louga",
+      "name": "Louga",
+      "city": "Louga",
+      "profiles": []
+    },
+    {
+      "id": "tambacounda",
+      "name": "Tambacounda",
+      "city": "Tambacounda",
+      "profiles": []
+    },
+    {
+      "id": "kolda",
+      "name": "Kolda",
+      "city": "Kolda",
+      "profiles": []
+    },
+    {
+      "id": "matam",
+      "name": "Matam",
+      "city": "Matam",
+      "profiles": []
+    },
+    {
+      "id": "kaffrine",
+      "name": "Kaffrine",
+      "city": "Kaffrine",
+      "profiles": []
+    },
+    {
+      "id": "kedougou",
+      "name": "Kédougou",
+      "city": "Kédougou",
+      "profiles": []
+    },
+    {
+      "id": "sedhiou",
+      "name": "Sédhiou",
+      "city": "Sédhiou",
+      "profiles": []
+    },
+    {
+      "id": "fatick",
+      "name": "Fatick",
+      "city": "Fatick",
+      "profiles": []
+    }
+  ]
+}
