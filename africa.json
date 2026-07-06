@@ -38,19 +38,56 @@
             },
             {
               "id": 2,
-              "name": "Sandra",
+              "name": "Julie",
               "age": 24,
               "description": "Douce et souriante",
-              "image": "Sandra.jpg",
+              "image": "Julie.jpg",
               "status": "busy",
-              "statusText": "Se libère dans 45 min",
+              "statusText": "Se libère dans 10 min",
               "prices": {
-                "30min": "12000",
-                "1h": "20000",
-                "night": "80000",
-                "day": "140000"
+                "30min": "7000",
+                "1h30": "10000",
+                "night": "35000",
+                "day": "50000"
               }
             }
+
+
+
+
+{
+              "id": 3,
+              "name": "Emma",
+              "age": 24,
+              "description": "Douce et souriante",
+              "image": "Emma.jpg",
+              "status": "busy",
+              "statusText": "Se libère dans 35 min",
+              "prices": {
+                "30min": "5000",
+                "1h": "9000",
+                "night": "30000",
+                "day": "40000"
+              }
+            }
+
+
+{
+              "id": 3,
+              "name": "Monique",
+              "age": 23,
+              "description": " Emotif",
+              "image": "Monique.jpg",
+              "status": "busy",
+              "statusText": "Se libère dans 35 min",
+              "prices": {
+                "30min": "5000",
+                "1h": "8000",
+                "night": "30000",
+                "day": "40000"
+              }
+            }
+
           ]
         },
 
