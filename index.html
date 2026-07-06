@@ -9,16 +9,22 @@
   <script>
     // On récupère les valeurs stockées
     const ageVerified = localStorage.getItem("ageVerified");
-    const userRegion = localStorage.getItem("userRegion");
+    const userContinent = localStorage.getItem("userContinent");
+const userCountry = localStorage.getItem("userCountry");
+const userRegion = localStorage.getItem("userRegion");
 
-    // Si l'âge n'est pas vérifié → redirection vers verificationAge.html
-    if (ageVerified !== "true") {
-      window.location.href = "verificationAge.html";
-    }
-    // Si la région n'est pas choisie → redirection vers region.html
-    else if (!userRegion) {
-      window.location.href = "region.html";
-    }
+if (ageVerified !== "true") {
+  window.location.href = "verificationAge.html";
+}
+else if (!userContinent) {
+  window.location.href = "continent.html";
+}
+else if (!userCountry) {
+  window.location.href = "country.html";
+}
+else if (!userRegion) {
+  window.location.href = "region.html";
+}
   </script>
 
   <title>Secret Lounge</title>
