@@ -7,35 +7,56 @@ document.addEventListener("DOMContentLoaded", async () => {
         return;
     }
 
-    const subtitle = document.getElementById("subtitle");
+    const title = document.getElementById("subtitle");
     const countryList = document.getElementById("countryList");
+
+    let file = "";
+
+    switch (continent) {
+        case "africa":
+            file = "africa.json";
+            break;
+
+        case "asia":
+            file = "asia.json";
+            break;
+
+        case "europe":
+            file = "europe.json";
+            break;
+
+        case "america":
+            file = "america.json";
+            break;
+
+        default:
+            title.innerHTML = "Continent inconnu";
+            return;
+    }
 
     try {
 
-        const response = await fetch("Countries.json");
+        const response = await fetch(file);
         const data = await response.json();
 
-        const countries = data.continents[continent].countries;
+        title.innerHTML = "Choisissez votre pays";
 
-        subtitle.textContent = "Choisissez votre pays";
-
-        for (const key in countries) {
-
-            const country = countries[key];
+        data.countries.forEach(country => {
 
             const button = document.createElement("button");
 
             button.className = "country-btn";
 
             button.innerHTML = `
-                <strong>${country.name}</strong><br>
-                <small>${country.language}</small><br>
-                <small>${country.currency}</small>
+                <h3>${country.flag} ${country.name}</h3>
+                <p>🗣️ ${country.language.join(", ")}</p>
+                <p>💰 ${country.currency}</p>
+                <p>💳 Inscription : ${country.registrationPrice} ${country.currencySymbol}</p>
             `;
 
             button.addEventListener("click", () => {
 
-                localStorage.setItem("userCountry", key);
+                localStorage.setItem("userCountry", country.id);
 
                 window.location.href = "region.html";
 
@@ -43,13 +64,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             countryList.appendChild(button);
 
-        }
+        });
 
-    } catch (e) {
+    } catch (error) {
 
-        subtitle.textContent = "Impossible de charger les pays.";
+        console.error(error);
 
-        console.error(e);
+        title.innerHTML = "Impossible de charger les pays.";
 
     }
 
