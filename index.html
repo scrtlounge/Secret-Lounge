@@ -1,88 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
 
-  <!-- ======================================
-       Vérification de l'âge et de la région
-       ====================================== -->
-  <script>
-    // On récupère les valeurs stockées
-    const ageVerified = localStorage.getItem("ageVerified");
-    const userContinent = localStorage.getItem("userContinent");
-const userCountry = localStorage.getItem("userCountry");
-const userRegion = localStorage.getItem("userRegion");
+<meta charset="UTF-8">
 
-if (ageVerified !== "true") {
-  window.location.href = "verificationAge.html";
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Secret Lounge</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+<script>
+
+if(localStorage.getItem("ageVerified")!=="true"){
+location.href="verificationAge.html";
 }
-else if (!userContinent) {
-  window.location.href = "continent.html";
-}
-else if (!userCountry) {
-  window.location.href = "country.html";
-}
-else if (!userRegion) {
-  window.location.href = "region.html";
-}
-  </script>
 
-  <title>Secret Lounge</title>
+if(!localStorage.getItem("userContinent")){
+location.href="continent.html";
+}
 
-  <!-- CSS principal -->
-  <link rel="stylesheet" href="style.css">
+if(!localStorage.getItem("userCountry")){
+location.href="country.html";
+}
 
-  <!-- Icônes Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+if(!localStorage.getItem("userRegion")){
+location.href="region.html";
+}
+
+</script>
+
 </head>
 
 <body>
 
 <header>
-  <h1>Secret Lounge</h1>
-  <p>Espace privé • Élégance • Discrétion</p>
 
-  <div class="links">
-    <a class="facebook" href="https://m.facebook.com/" target="_blank">
-      <i class="fab fa-facebook-f"></i> Facebook
-    </a>
+<h1 id="siteTitle">Secret Lounge</h1>
 
-    <a class="whatsapp" href="https://wa.me/237682247549" target="_blank">
-      <i class="fab fa-whatsapp"></i> WhatsApp
-    </a>
+<p id="countryInfo"></p>
 
-    <a class="telegram" href="https://t.me/hiddenparasite" target="_blank">
-      <i class="fab fa-telegram"></i> Telegram
-    </a>
-  </div>
+<div class="headerButtons">
 
-  <a class="signup-btn" href="#inscription">Inscription – 5 000 FCFA</a>
-</header>
+<button id="changeCountry">
+🌍 Changer de pays
+</button>
 
-<!-- PROFILES -->
-<section class="profiles" id="profiles"></section>
+<button id="changeRegion">
+📍 Changer de région
+</button>
 
-<!-- FOOTER -->
-<footer id="inscription">
-  <h2>Inscription au Secret Lounge</h2>
-
-  <p>
-    L'inscription coûte <strong>5 000 FCFA</strong>.<br>
-    Réservée prioritairement aux femmes souhaitant proposer leurs services.
-  </p>
-
-  <a class="signup-btn" href="https://wa.me/237682247549">
-    S'inscrire maintenant
-  </a>
-</footer>
-
-<!-- MODAL IMAGE -->
-<div class="modal" id="imageModal">
-  <img id="modalImg" src="" alt="Image agrandie">
 </div>
 
-<!-- Script pour les profils et le modal -->
+</header>
+
+<main>
+
+<div id="profiles">
+
+</div>
+
+</main>
+
+<div id="imageModal" class="modal">
+
+<span id="closeModal">&times;</span>
+
+<img id="modalImage">
+
+</div>
+
 <script src="script.js"></script>
 
 </body>
+
 </html>
