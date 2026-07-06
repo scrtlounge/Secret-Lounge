@@ -1,5 +1,5 @@
-
 {
+  "continent": "Afrique",
   "countries": [
     {
       "id": "cameroon",
@@ -8,120 +8,11 @@
       "language": ["Français", "Anglais"],
       "currency": "FCFA",
       "currencySymbol": "FCFA",
-      "registrationPrice": 5000,
-      "whatsapp": "237682247549",
-      "facebook": "https://m.me/ton_compte",
       "regions": [
-        {
-          "id": "adamaoua",
-          "name": "Adamaoua",
-          "city": "Ngaoundéré",
-          "profiles": [
-            { "id": 1, "name": "Ambre", "age": 22, "description": "Spécialiste de la culture locale et des chefferies", "image": "Ambre.jpg", "video": "videos/Ambre.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "9000", "half_day": "30000", "full_day": "40000" } },
-            { "id": 2, "name": "Amelie", "age": 24, "description": "Guide de randonnée pour les plateaux de l'Adamaoua", "image": "Amelie.jpg", "video": "videos/Amelie.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "9000", "half_day": "30000", "full_day": "40000" } },
-            { "id": 3, "name": "Andrea", "age": 23, "description": "Experte en circuits éco-touristiques", "image": "Andrea.jpg", "video": "videos/Andrea.mp4", "status": "busy", "statusText": "En visite", "prices": { "30min": "5000", "1h": "8000", "half_day": "30000", "full_day": "40000" } },
-            { "id": 4, "name": "Béatrice", "age": 25, "description": "Médiatrice culturelle et interprète", "image": "Beatrice.jpg", "video": "videos/Beatrice.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "10000", "half_day": "35000", "full_day": "45000" } }
-          ]
-        },
-        {
-          "id": "centre",
-          "name": "Centre",
-          "city": "Yaoundé",
-          "profiles": [
-            { "id": 5, "name": "Camille", "age": 22, "description": "Guide spécialisée en histoire locale et musées", "image": "Camille.jpg", "video": "videos/Camille.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "10000", "1h": "18000", "half_day": "70000", "full_day": "120000" } },
-            { "id": 6, "name": "Chloé", "age": 24, "description": "Experte en randonnées urbaines et parcs", "image": "Chloe.jpg", "video": "videos/Chloe.mp4", "status": "busy", "statusText": "Libre dans 10 min", "prices": { "30min": "7000", "1h30": "10000", "half_day": "35000", "full_day": "50000" } },
-            { "id": 7, "name": "Claire", "age": 24, "description": "Spécialiste de la gastronomie et des marchés", "image": "Claire.jpg", "video": "videos/Claire.mp4", "status": "busy", "statusText": "Libre dans 35 min", "prices": { "30min": "5000", "1h": "9000", "half_day": "30000", "full_day": "40000" } },
-            { "id": 8, "name": "Clémence", "age": 23, "description": "Animatrice culturelle et ateliers d'art", "image": "Clemence.jpg", "video": "videos/Clemence.mp4", "status": "busy", "statusText": "Libre dans 35 min", "prices": { "30min": "5000", "1h": "8000", "half_day": "30000", "full_day": "40000" } }
-          ]
-        },
-        {
-          "id": "est",
-          "name": "Est",
-          "city": "Bertoua",
-          "profiles": [
-            { "id": 9, "name": "Divine", "age": 21, "description": "Guide pour les réserves naturelles et forêts", "image": "Divine.jpg", "video": "videos/Divine.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "8000", "half_day": "25000", "full_day": "35000" } },
-            { "id": 10, "name": "Eline", "age": 23, "description": "Spécialiste des traditions culturelles de l'Est", "image": "Eline.jpg", "video": "videos/Eline.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "8000", "half_day": "25000", "full_day": "35000" } },
-            { "id": 11, "name": "Emma", "age": 24, "description": "Accompagnatrice pour circuits de découverte", "image": "Emma.jpg", "video": "videos/Emma.mp4", "status": "busy", "statusText": "En visite", "prices": { "30min": "5000", "1h": "9000", "half_day": "30000", "full_day": "40000" } },
-            { "id": 12, "name": "Eva", "age": 22, "description": "Animatrice de parcours éco-touristiques", "image": "Eva.jpg", "video": "videos/Eva.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "8000", "half_day": "25000", "full_day": "35000" } }
-          ]
-        },
-        {
-          "id": "extreme_nord",
-          "name": "Extrême-Nord",
-          "city": "Maroua",
-          "profiles": [
-            { "id": 13, "name": "Ines", "age": 23, "description": "Spécialiste des paysages du Sahel et de l'artisanat", "image": "Ines.jpg", "video": "videos/Ines.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "10000", "half_day": "35000", "full_day": "50000" } },
-            { "id": 14, "name": "Ingrid", "age": 25, "description": "Guide pour l'architecture traditionnelle", "image": "Ingrid.jpg", "video": "videos/Ingrid.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "10000", "half_day": "35000", "full_day": "50000" } },
-            { "id": 15, "name": "Jade", "age": 22, "description": "Experte en marchés et artisanat local", "image": "Jade.jpg", "video": "videos/Jade.mp4", "status": "busy", "statusText": "En cours", "prices": { "30min": "5000", "1h": "9000", "half_day": "30000", "full_day": "45000" } },
-            { "id": 16, "name": "Jeanne", "age": 24, "description": "Médiatrice culturelle bilingue", "image": "Jeanne.jpg", "video": "videos/Jeanne.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "10000", "half_day": "35000", "full_day": "50000" } }
-          ]
-        },
-        {
-          "id": "littoral",
-          "name": "Littoral",
-          "city": "Douala",
-          "profiles": [
-            { "id": 17, "name": "Jessica", "age": 22, "description": "Spécialiste du patrimoine maritime et historique", "image": "Jessica.jpg", "video": "videos/jessica.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "10000", "1h": "18000", "half_day": "70000", "full_day": "120000" } },
-            { "id": 18, "name": "Julie", "age": 24, "description": "Guide pour les circuits urbains et architecture", "image": "Julie.jpg", "video": "videos/Julie.mp4", "status": "busy", "statusText": "Libre dans 10 min", "prices": { "30min": "7000", "1h30": "10000", "half_day": "35000", "full_day": "50000" } },
-            { "id": 19, "name": "Justine", "age": 23, "description": "Experte en tourisme d'affaires et événements", "image": "Justine.jpg", "video": "videos/Justine.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "8000", "1h": "15000", "half_day": "60000", "full_day": "100000" } },
-            { "id": 20, "name": "Keli", "age": 25, "description": "Animatrice de circuits gastronomiques", "image": "Keli.jpg", "video": "videos/Keli.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "8000", "1h": "15000", "half_day": "60000", "full_day": "100000" } }
-          ]
-        },
-        {
-          "id": "nord",
-          "name": "Nord",
-          "city": "Garoua",
-          "profiles": [
-            { "id": 21, "name": "Lili", "age": 22, "description": "Guide pour les parcs nationaux et la faune", "image": "Lili.jpg", "video": "videos/Lili.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "10000", "half_day": "40000", "full_day": "60000" } },
-            { "id": 22, "name": "Musette", "age": 24, "description": "Spécialiste de la culture de la vallée de la Bénoué", "image": "Musette.jpg", "video": "videos/Musette.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "10000", "half_day": "40000", "full_day": "60000" } },
-            { "id": 23, "name": "Léa", "age": 23, "description": "Accompagnatrice de voyages et circuits nature", "image": "Lea.jpg", "video": "videos/Lea.mp4", "status": "busy", "statusText": "En excursion", "prices": { "30min": "5000", "1h": "9000", "half_day": "35000", "full_day": "55000" } },
-            { "id": 24, "name": "Margo", "age": 25, "description": "Interprète et guide de sites historiques", "image": "Margo.jpg", "video": "videos/Margo.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "10000", "half_day": "40000", "full_day": "60000" } }
-          ]
-        },
-        {
-          "id": "nord_ouest",
-          "name": "Nord-Ouest",
-          "city": "Bamenda",
-          "profiles": [
-            { "id": 25, "name": "Marie", "age": 23, "description": "Guide spécialisée dans l'artisanat des Grassfields", "image": "Marie.jpg", "video": "videos/Marie.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "9000", "half_day": "30000", "full_day": "45000" } },
-            { "id": 26, "name": "Marta", "age": 25, "description": "Experte des traditions et festivals locaux", "image": "Marta.jpg", "video": "videos/Marta.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "9000", "half_day": "30000", "full_day": "45000" } },
-            { "id": 27, "name": "Mélodie", "age": 22, "description": "Accompagnatrice de randonnées de montagne", "image": "Melodie.jpg", "video": "videos/Melodie.mp4", "status": "busy", "statusText": "Occupée", "prices": { "30min": "5000", "1h": "8000", "half_day": "30000", "full_day": "40000" } },
-            { "id": 28, "name": "Merveille", "age": 24, "description": "Guide culturelle bilingue", "image": "Merveille.jpg", "video": "videos/Merveille.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "9000", "half_day": "30000", "full_day": "45000" } }
-          ]
-        },
-        {
-          "id": "ouest",
-          "name": "Ouest",
-          "city": "Bafoussam",
-          "profiles": [
-            { "id": 29, "name": "Mia", "age": 22, "description": "Experte de l'histoire des chefferies Bamiléké", "image": "Mia.jpg", "video": "videos/Mia.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "11000", "half_day": "40000", "full_day": "65000" } },
-            { "id": 30, "name": "Monique", "age": 23, "description": "Animatrice culturelle et ateliers d'art", "image": "Monique.jpg", "video": "videos/Monique.mp4", "status": "busy", "statusText": "Libre dans 35 min", "prices": { "30min": "5000", "1h": "8000", "half_day": "30000", "full_day": "40000" } },
-            { "id": 31, "name": "Nina", "age": 24, "description": "Guide pour les sites naturels et chutes d'eau", "image": "Nina.jpg", "video": "videos/Nina.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "9000", "half_day": "35000", "full_day": "50000" } },
-            { "id": 32, "name": "Océane", "age": 25, "description": "Spécialiste en danses et arts traditionnels", "image": "Oceane.jpg", "video": "videos/Oceane.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "11000", "half_day": "40000", "full_day": "65000" } }
-          ]
-        },
-        {
-          "id": "sud",
-          "name": "Sud",
-          "city": "Ebolowa",
-          "profiles": [
-            { "id": 33, "name": "Orphée", "age": 23, "description": "Guide pour les plages de Kribi et l'éco-tourisme", "image": "Orphee.jpg", "video": "videos/Orphee.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "7000", "1h": "12000", "half_day": "45000", "full_day": "80000" } },
-            { "id": 34, "name": "Pauline", "age": 24, "description": "Spécialiste du patrimoine forestier et marin", "image": "Pauline.jpg", "video": "videos/Pauline.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "7000", "1h": "12000", "half_day": "45000", "full_day": "80000" } },
-            { "id": 35, "name": "Rose", "age": 22, "description": "Animatrice d'excursions et de découvertes", "image": "Rose.jpg", "video": "videos/Rose.mp4", "status": "busy", "statusText": "En visite", "prices": { "30min": "5000", "1h": "9000", "half_day": "35000", "full_day": "60000" } },
-            { "id": 36, "name": "Sara", "age": 25, "description": "Accompagnatrice pour circuits culturels", "image": "Sara.jpg", "video": "videos/Sara.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "7000", "1h": "12000", "half_day": "45000", "full_day": "80000" } }
-          ]
-        },
-        {
-          "id": "sud_ouest",
-          "name": "Sud-Ouest",
-          "city": "Buéa",
-          "profiles": [
-            { "id": 37, "name": "Solange", "age": 24, "description": "Guide de randonnée pour le Mont Cameroun", "image": "Solange.jpg", "video": "videos/Solange.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "10000", "half_day": "40000", "full_day": "70000" } },
-            { "id": 38, "name": "Soleil", "age": 22, "description": "Spécialiste de la biodiversité et des parcs", "image": "Soleil.jpg", "video": "videos/Soleil.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "10000", "half_day": "40000", "full_day": "70000" } },
-            { "id": 39, "name": "Soradyne", "age": 23, "description": "Accompagnatrice anglophone et francophone", "image": "Soradyne.jpg", "video": "videos/Soradyne.mp4", "status": "busy", "statusText": "En montagne", "prices": { "30min": "5000", "1h": "9000", "half_day": "35000", "full_day": "60000" } },
-            { "id": 40, "name": "Stela", "age": 25, "description": "Guide touristique certifiée pour sites coloniaux", "image": "Stela.jpg", "video": "videos/Stela.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "6000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-          ]
-        }
+        { "id": "adamaoua", "name": "Adamaoua", "city": "Ngaoundéré", "profiles": [] },
+        { "id": "centre", "name": "Centre", "city": "Yaoundé", "profiles": [] },
+        { "id": "littoral", "name": "Littoral", "city": "Douala", "profiles": [] },
+        { "id": "ouest", "name": "Ouest", "city": "Bafoussam", "profiles": [] }
       ]
     },
     {
@@ -131,46 +22,10 @@
       "language": ["Français", "Wolof"],
       "currency": "FCFA",
       "currencySymbol": "FCFA",
-      "registrationPrice": 5000,
-      "whatsapp": "221xxxxxxx",
-      "facebook": "https://m.me/ton_compte_sn",
       "regions": [
-        {
-          "id": "dakar",
-          "name": "Dakar",
-          "city": "Dakar",
-          "profiles": [
-            { "id": 301, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } },
-            { "id": 302, "name": "Exemple 2", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-          ]
-        },
-        {
-          "id": "saint_louis",
-          "name": "Saint-Louis",
-          "city": "Saint-Louis",
-          "profiles": [
-            { "id": 303, "name": "Exemple 3", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-          ]
-        },
-        {
-          "id": "thiès",
-          "name": "Thiès",
-          "city": "Thiès",
-          "profiles": [
-            { "id": 304, "name": "Exemple 4", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-          ]
-        },
-        { "id": "zyguinchor", "name": "Ziguinchor", "city": "Ziguinchor", "profiles": [] },
-        { "id": "diourbel", "name": "Diourbel", "city": "Diourbel", "profiles": [] },
-        { "id": "kaolack", "name": "Kaolack", "city": "Kaolack", "profiles": [] },
-        { "id": "louga", "name": "Louga", "city": "Louga", "profiles": [] },
-        { "id": "tambacounda", "name": "Tambacounda", "city": "Tambacounda", "profiles": [] },
-        { "id": "kolda", "name": "Kolda", "city": "Kolda", "profiles": [] },
-        { "id": "matam", "name": "Matam", "city": "Matam", "profiles": [] },
-        { "id": "kaffrine", "name": "Kaffrine", "city": "Kaffrine", "profiles": [] },
-        { "id": "kedougou", "name": "Kédougou", "city": "Kédougou", "profiles": [] },
-        { "id": "sedhiou", "name": "Sédhiou", "city": "Sédhiou", "profiles": [] },
-        { "id": "fatick", "name": "Fatick", "city": "Fatick", "profiles": [] }
+        { "id": "dakar", "name": "Dakar", "city": "Dakar", "profiles": [] },
+        { "id": "saint_louis", "name": "Saint-Louis", "city": "Saint-Louis", "profiles": [] },
+        { "id": "thies", "name": "Thiès", "city": "Thiès", "profiles": [] }
       ]
     },
     {
@@ -180,34 +35,10 @@
       "language": ["Français"],
       "currency": "FCFA",
       "currencySymbol": "FCFA",
-      "registrationPrice": 5000,
-      "whatsapp": "241xxxxxxx",
-      "facebook": "https://m.me/ton_compte_ga",
       "regions": [
-        {
-          "id": "estuaire",
-          "name": "Estuaire",
-          "city": "Libreville",
-          "profiles": [
-            { "id": 401, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } },
-            { "id": 402, "name": "Exemple 2", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-          ]
-        },
-        {
-          "id": "haut_ogooue",
-          "name": "Haut-Ogooué",
-          "city": "Franceville",
-          "profiles": [
-            { "id": 403, "name": "Exemple 3", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "half_day": "40000", "full_day": "70000" } }
-          ]
-        },
-        { "id": "moyen_ogooue", "name": "Moyen-Ogooué", "city": "Lambaréné", "profiles": [] },
-        { "id": "ngounie", "name": "Ngounié", "city": "Mouila", "profiles": [] },
-        { "id": "nyanga", "name": "Nyanga", "city": "Tchibanga", "profiles": [] },
-        { "id": "ogooue_ivindo", "name": "Ogooué-Ivindo", "city": "Makokou", "profiles": [] },
-        { "id": "ogooue_lolo", "name": "Ogooué-Lolo", "city": "Koulamoutou", "profiles": [] },
-        { "id": "ogooue_maritime", "name": "Ogooué-Maritime", "city": "Port-Gentil", "profiles": [] },
-        { "id": "woleu_ntem", "name": "Woleu-Ntem", "city": "Oyem", "profiles": [] }
+        { "id": "estuaire", "name": "Estuaire", "city": "Libreville", "profiles": [] },
+        { "id": "haut_ogooue", "name": "Haut-Ogooué", "city": "Franceville", "profiles": [] },
+        { "id": "ogooue_maritime", "name": "Ogooué-Maritime", "city": "Port-Gentil", "profiles": [] }
       ]
     },
     {
@@ -217,13 +48,215 @@
       "language": ["Français"],
       "currency": "FCFA",
       "currencySymbol": "FCFA",
-      "registrationPrice": 5000,
-      "whatsapp": "225xxxxxxx",
-      "facebook": "https://m.me/ton_compte_ci",
       "regions": [
-        {
-          "id": "abidjan",
-          "name": "District Autonome d'Abidjan",
-          "city": "Abidjan",
-          "profiles": [
-            { "id": 501, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "ha
+        { "id": "abidjan", "name": "District Autonome d'Abidjan", "city": "Abidjan", "profiles": [] },
+        { "id": "yamoussoukro", "name": "Yamoussoukro", "city": "Yamoussoukro", "profiles": [] },
+        { "id": "bouake", "name": "Vallée du Bandama", "city": "Bouaké", "profiles": [] }
+      ]
+    },
+    {
+      "id": "mali",
+      "name": "Mali",
+      "flag": "🇲🇱",
+      "language": ["Français", "Bambara"],
+      "currency": "FCFA",
+      "currencySymbol": "FCFA",
+      "regions": [
+        { "id": "bamako", "name": "Bamako", "city": "Bamako", "profiles": [] },
+        { "id": "mopti", "name": "Mopti", "city": "Mopti", "profiles": [] },
+        { "id": "tombouctou", "name": "Tombouctou", "city": "Tombouctou", "profiles": [] }
+      ]
+    },
+    {
+      "id": "benin",
+      "name": "Bénin",
+      "flag": "🇧🇯",
+      "language": ["Français"],
+      "currency": "FCFA",
+      "currencySymbol": "FCFA",
+      "regions": [
+        { "id": "littoral_bj", "name": "Littoral", "city": "Cotonou", "profiles": [] },
+        { "id": "atlantique", "name": "Atlantique", "city": "Ouidah", "profiles": [] }
+      ]
+    },
+    {
+      "id": "togo",
+      "name": "Togo",
+      "flag": "🇹🇬",
+      "language": ["Français"],
+      "currency": "FCFA",
+      "currencySymbol": "FCFA",
+      "regions": [
+        { "id": "maritime_tg", "name": "Maritime", "city": "Lomé", "profiles": [] },
+        { "id": "plateaux", "name": "Plateaux", "city": "Atakpamé", "profiles": [] }
+      ]
+    },
+    {
+      "id": "morocco",
+      "name": "Maroc",
+      "flag": "🇲🇦",
+      "language": ["Arabe", "Français", "Berbère"],
+      "currency": "Dirham marocain",
+      "currencySymbol": "MAD",
+      "regions": [
+        { "id": "marrakech_safi", "name": "Marrakech-Safi", "city": "Marrakech", "profiles": [] },
+        { "id": "rabat_sale", "name": "Rabat-Salé-Kénitra", "city": "Rabat", "profiles": [] },
+        { "id": "fes_meknes", "name": "Fès-Meknès", "city": "Fès", "profiles": [] },
+        { "id": "casablanca_settat", "name": "Casablanca-Settat", "city": "Casablanca", "profiles": [] }
+      ]
+    },
+    {
+      "id": "algeria",
+      "name": "Algérie",
+      "flag": "🇩🇿",
+      "language": ["Arabe", "Français", "Berbère"],
+      "currency": "Dinar algérien",
+      "currencySymbol": "DZD",
+      "regions": [
+        { "id": "alger", "name": "Alger", "city": "Alger", "profiles": [] },
+        { "id": "oran", "name": "Oran", "city": "Oran", "profiles": [] },
+        { "id": "constantine", "name": "Constantine", "city": "Constantine", "profiles": [] }
+      ]
+    },
+    {
+      "id": "tunisia",
+      "name": "Tunisie",
+      "flag": "🇹🇳",
+      "language": ["Arabe", "Français"],
+      "currency": "Dinar tunisien",
+      "currencySymbol": "TND",
+      "regions": [
+        { "id": "tunis", "name": "Tunis", "city": "Tunis", "profiles": [] },
+        { "id": "sousse", "name": "Sousse", "city": "Sousse", "profiles": [] },
+        { "id": "djerba", "name": "Médenine", "city": "Djerba", "profiles": [] }
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": "Égypte",
+      "flag": "🇪🇬",
+      "language": ["Arabe"],
+      "currency": "Livre égyptienne",
+      "currencySymbol": "EGP",
+      "regions": [
+        { "id": "cairo", "name": "Le Caire", "city": "Le Caire", "profiles": [] },
+        { "id": "luxor", "name": "Louxor", "city": "Louxor", "profiles": [] },
+        { "id": "aswan", "name": "Assouan", "city": "Assouan", "profiles": [] },
+        { "id": "red_sea", "name": "Mer Rouge", "city": "Hurghada", "profiles": [] }
+      ]
+    },
+    {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "flag": "🇳🇬",
+      "language": ["Anglais"],
+      "currency": "Naira",
+      "currencySymbol": "NGN",
+      "regions": [
+        { "id": "lagos", "name": "Lagos", "city": "Lagos", "profiles": [] },
+        { "id": "abuja", "name": "Territoire de la capitale fédérale", "city": "Abuja", "profiles": [] },
+        { "id": "kano", "name": "Kano", "city": "Kano", "profiles": [] }
+      ]
+    },
+    {
+      "id": "ghana",
+      "name": "Ghana",
+      "flag": "🇬🇭",
+      "language": ["Anglais"],
+      "currency": "Cedi",
+      "currencySymbol": "GHS",
+      "regions": [
+        { "id": "greater_accra", "name": "Greater Accra", "city": "Accra", "profiles": [] },
+        { "id": "ashanti", "name": "Ashanti", "city": "Kumasi", "profiles": [] },
+        { "id": "central_gh", "name": "Central", "city": "Cape Coast", "profiles": [] }
+      ]
+    },
+    {
+      "id": "kenya",
+      "name": "Kenya",
+      "flag": "🇰🇪",
+      "language": ["Anglais", "Swahili"],
+      "currency": "Shilling kényan",
+      "currencySymbol": "KES",
+      "regions": [
+        { "id": "nairobi", "name": "Nairobi", "city": "Nairobi", "profiles": [] },
+        { "id": "coast", "name": "Côte", "city": "Mombasa", "profiles": [] },
+        { "id": "rift_valley", "name": "Rift Valley", "city": "Nakuru", "profiles": [] }
+      ]
+    },
+    {
+      "id": "tanzania",
+      "name": "Tanzanie",
+      "flag": "🇹🇿",
+      "language": ["Swahili", "Anglais"],
+      "currency": "Shilling tanzanien",
+      "currencySymbol": "TZS",
+      "regions": [
+        { "id": "dar_es_salaam", "name": "Dar es Salaam", "city": "Dar es Salaam", "profiles": [] },
+        { "id": "arusha", "name": "Arusha", "city": "Arusha", "profiles": [] },
+        { "id": "zanzibar", "name": "Zanzibar", "city": "Zanzibar City", "profiles": [] }
+      ]
+    },
+    {
+      "id": "ethiopia",
+      "name": "Éthiopie",
+      "flag": "🇪🇹",
+      "language": ["Amharique"],
+      "currency": "Birr éthiopien",
+      "currencySymbol": "ETB",
+      "regions": [
+        { "id": "addis_ababa", "name": "Addis-Abeba", "city": "Addis-Abeba", "profiles": [] },
+        { "id": "amhara", "name": "Amhara", "city": "Gondar", "profiles": [] }
+      ]
+    },
+    {
+      "id": "south_africa",
+      "name": "Afrique du Sud",
+      "flag": "🇿🇦",
+      "language": ["Anglais", "Afrikaans", "Zoulou"],
+      "currency": "Rand",
+      "currencySymbol": "ZAR",
+      "regions": [
+        { "id": "western_cape", "name": "Western Cape", "city": "Le Cap", "profiles": [] },
+        { "id": "gauteng", "name": "Gauteng", "city": "Johannesburg", "profiles": [] },
+        { "id": "kwazulu_natal", "name": "KwaZulu-Natal", "city": "Durban", "profiles": [] }
+      ]
+    },
+    {
+      "id": "rwanda",
+      "name": "Rwanda",
+      "flag": "🇷🇼",
+      "language": ["Kinyarwanda", "Français", "Anglais"],
+      "currency": "Franc rwandais",
+      "currencySymbol": "RWF",
+      "regions": [
+        { "id": "kigali", "name": "Kigali", "city": "Kigali", "profiles": [] },
+        { "id": "northern_rw", "name": "Province du Nord", "city": "Musanze", "profiles": [] }
+      ]
+    },
+    {
+      "id": "uganda",
+      "name": "Ouganda",
+      "flag": "🇺🇬",
+      "language": ["Anglais", "Swahili"],
+      "currency": "Shilling ougandais",
+      "currencySymbol": "UGX",
+      "regions": [
+        { "id": "kampala", "name": "Kampala", "city": "Kampala", "profiles": [] },
+        { "id": "western_ug", "name": "Région occidentale", "city": "Kasese", "profiles": [] }
+      ]
+    },
+    {
+      "id": "dr_congo",
+      "name": "République Démocratique du Congo",
+      "flag": "🇨🇩",
+      "language": ["Français", "Lingala", "Swahili"],
+      "currency": "Franc congolais",
+      "currencySymbol": "CDF",
+      "regions": [
+        { "id": "kinshasa", "name": "Kinshasa", "city": "Kinshasa", "profiles": [] },
+        { "id": "nord_kivu", "name": "Nord-Kivu", "city": "Goma", "profiles": [] }
+      ]
+    }
+  ]
+}
