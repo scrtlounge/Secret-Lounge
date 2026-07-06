@@ -1,0 +1,252 @@
+{
+  "continent": "Europe",
+  "countries": [
+    {
+      "id": "france",
+      "name": "France",
+      "flag": "🇫🇷",
+      "language": ["Français"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "ile_de_france", "name": "Île-de-France", "city": "Paris", "profiles": [] },
+        { "id": "provence", "name": "Provence-Alpes-Côte d'Azur", "city": "Nice", "profiles": [] },
+        { "id": "auvergne_rhone_alpes", "name": "Auvergne-Rhône-Alpes", "city": "Lyon", "profiles": [] },
+        { "id": "nouvelle_aquitaine", "name": "Nouvelle-Aquitaine", "city": "Bordeaux", "profiles": [] }
+      ]
+    },
+    {
+      "id": "spain",
+      "name": "Espagne",
+      "flag": "🇪🇸",
+      "language": ["Espagnol"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "madrid", "name": "Communauté de Madrid", "city": "Madrid", "profiles": [] },
+        { "id": "catalogne", "name": "Catalogne", "city": "Barcelone", "profiles": [] },
+        { "id": "andalousie", "name": "Andalousie", "city": "Séville", "profiles": [] }
+      ]
+    },
+    {
+      "id": "italy",
+      "name": "Italie",
+      "flag": "🇮🇹",
+      "language": ["Italien"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "latium", "name": "Latium", "city": "Rome", "profiles": [] },
+        { "id": "toscane", "name": "Toscane", "city": "Florence", "profiles": [] },
+        { "id": "venetie", "name": "Vénétie", "city": "Venise", "profiles": [] },
+        { "id": "lombardie", "name": "Lombardie", "city": "Milan", "profiles": [] }
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "Allemagne",
+      "flag": "🇩🇪",
+      "language": ["Allemand"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "berlin", "name": "Berlin", "city": "Berlin", "profiles": [] },
+        { "id": "baviere", "name": "Bavière", "city": "Munich", "profiles": [] },
+        { "id": "hambourg", "name": "Hambourg", "city": "Hambourg", "profiles": [] }
+      ]
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "language": ["Portugais"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "lisbonne", "name": "Région de Lisbonne", "city": "Lisbonne", "profiles": [] },
+        { "id": "nord_pt", "name": "Région Nord", "city": "Porto", "profiles": [] },
+        { "id": "algarve", "name": "Algarve", "city": "Faro", "profiles": [] }
+      ]
+    },
+    {
+      "id": "belgium",
+      "name": "Belgique",
+      "flag": "🇧🇪",
+      "language": ["Français", "Néerlandais"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "bruxelles", "name": "Région de Bruxelles-Capitale", "city": "Bruxelles", "profiles": [] },
+        { "id": "flandre", "name": "Flandre", "city": "Anvers", "profiles": [] }
+      ]
+    },
+    {
+      "id": "netherlands",
+      "name": "Pays-Bas",
+      "flag": "🇳🇱",
+      "language": ["Néerlandais"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "hollande_septentrionale", "name": "Hollande-Septentrionale", "city": "Amsterdam", "profiles": [] },
+        { "id": "hollande_meridionale", "name": "Hollande-Méridionale", "city": "Rotterdam", "profiles": [] }
+      ]
+    },
+    {
+      "id": "switzerland",
+      "name": "Suisse",
+      "flag": "🇨🇭",
+      "language": ["Allemand", "Français", "Italien"],
+      "currency": "Franc suisse",
+      "currencySymbol": "CHF",
+      "regions": [
+        { "id": "geneve", "name": "Genève", "city": "Genève", "profiles": [] },
+        { "id": "zurich", "name": "Zurich", "city": "Zurich", "profiles": [] },
+        { "id": "valais", "name": "Valais", "city": "Zermatt", "profiles": [] }
+      ]
+    },
+    {
+      "id": "austria",
+      "name": "Autriche",
+      "flag": "🇦🇹",
+      "language": ["Allemand"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "vienne", "name": "Vienne", "city": "Vienne", "profiles": [] },
+        { "id": "tyrol", "name": "Tyrol", "city": "Innsbruck", "profiles": [] }
+      ]
+    },
+    {
+      "id": "united_kingdom",
+      "name": "Royaume-Uni",
+      "flag": "🇬🇧",
+      "language": ["Anglais"],
+      "currency": "Livre sterling",
+      "currencySymbol": "£",
+      "regions": [
+        { "id": "londres", "name": "Grand Londres", "city": "Londres", "profiles": [] },
+        { "id": "ecosse", "name": "Écosse", "city": "Édimbourg", "profiles": [] },
+        { "id": "angleterre_nord", "name": "Angleterre du Nord-Ouest", "city": "Manchester", "profiles": [] }
+      ]
+    },
+    {
+      "id": "ireland",
+      "name": "Irlande",
+      "flag": "🇮🇪",
+      "language": ["Anglais", "Irlandais"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "dublin", "name": "Dublin", "city": "Dublin", "profiles": [] },
+        { "id": "munster", "name": "Munster", "city": "Cork", "profiles": [] }
+      ]
+    },
+    {
+      "id": "greece",
+      "name": "Grèce",
+      "flag": "🇬🇷",
+      "language": ["Grec"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "attique", "name": "Attique", "city": "Athènes", "profiles": [] },
+        { "id": "crete", "name": "Crète", "city": "Héraklion", "profiles": [] },
+        { "id": "iles_egee", "name": "Égée-Méridionale", "city": "Santorin", "profiles": [] }
+      ]
+    },
+    {
+      "id": "poland",
+      "name": "Pologne",
+      "flag": "🇵🇱",
+      "language": ["Polonais"],
+      "currency": "Zloty",
+      "currencySymbol": "PLN",
+      "regions": [
+        { "id": "mazovie", "name": "Mazovie", "city": "Varsovie", "profiles": [] },
+        { "id": "petite_pologne", "name": "Petite-Pologne", "city": "Cracovie", "profiles": [] }
+      ]
+    },
+    {
+      "id": "czech_republic",
+      "name": "République Tchèque",
+      "flag": "🇨🇿",
+      "language": ["Tchèque"],
+      "currency": "Couronne tchèque",
+      "currencySymbol": "CZK",
+      "regions": [
+        { "id": "prague", "name": "Prague", "city": "Prague", "profiles": [] },
+        { "id": "moravie_sud", "name": "Moravie-du-Sud", "city": "Brno", "profiles": [] }
+      ]
+    },
+    {
+      "id": "hungary",
+      "name": "Hongrie",
+      "flag": "🇭🇺",
+      "language": ["Hongrois"],
+      "currency": "Forint",
+      "currencySymbol": "HUF",
+      "regions": [
+        { "id": "budapest", "name": "Budapest", "city": "Budapest", "profiles": [] }
+      ]
+    },
+    {
+      "id": "sweden",
+      "name": "Suède",
+      "flag": "🇸🇪",
+      "language": ["Suédois"],
+      "currency": "Couronne suédoise",
+      "currencySymbol": "SEK",
+      "regions": [
+        { "id": "stockholm", "name": "Stockholm", "city": "Stockholm", "profiles": [] },
+        { "id": "scanie", "name": "Scanie", "city": "Malmö", "profiles": [] }
+      ]
+    },
+    {
+      "id": "norway",
+      "name": "Norvège",
+      "flag": "🇳🇴",
+      "language": ["Norvégien"],
+      "currency": "Couronne norvégienne",
+      "currencySymbol": "NOK",
+      "regions": [
+        { "id": "oslo", "name": "Oslo", "city": "Oslo", "profiles": [] },
+        { "id": "vestland", "name": "Vestland", "city": "Bergen", "profiles": [] }
+      ]
+    },
+    {
+      "id": "denmark",
+      "name": "Danemark",
+      "flag": "🇩🇰",
+      "language": ["Danois"],
+      "currency": "Couronne danoise",
+      "currencySymbol": "DKK",
+      "regions": [
+        { "id": "copenhague", "name": "Hovedstaden", "city": "Copenhague", "profiles": [] }
+      ]
+    },
+    {
+      "id": "croatia",
+      "name": "Croatie",
+      "flag": "🇭🇷",
+      "language": ["Croate"],
+      "currency": "Euro",
+      "currencySymbol": "€",
+      "regions": [
+        { "id": "zagreb", "name": "Zagreb", "city": "Zagreb", "profiles": [] },
+        { "id": "dalmatie", "name": "Dalmatie", "city": "Dubrovnik", "profiles": [] }
+      ]
+    },
+    {
+      "id": "iceland",
+      "name": "Islande",
+      "flag": "🇮🇸",
+      "language": ["Islandais"],
+      "currency": "Couronne islandaise",
+      "currencySymbol": "ISK",
+      "regions": [
+        { "id": "reykjavik", "name": "Capitale (Reykjavik)", "city": "Reykjavik", "profiles": [] }
+      ]
+    }
+  ]
+}
