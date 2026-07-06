@@ -16,7 +16,7 @@
 
           "texts": {
             "available": "🟢 Disponible maintenant",
-            "busy": "🔴 Occupée",
+            "busy": "🔴 Se libère dans",
             "reserve": "Réserver",
             "whatsapp": "WhatsApp",
             "messenger": "Messenger",
@@ -27,28 +27,77 @@
             "fullDay": "Toute la journée"
           },
 
-          "regions": {
-            "centre": {
+          "regions": [
+            {
+              "id": "adamaoua",
+              "name": "Adamaoua",
+              "city": "Ngaoundéré"
+            },
+            {
+              "id": "centre",
               "name": "Centre",
-              "city": "Yaoundé",
-              "profiles": []
+              "city": "Yaoundé"
             },
-            "littoral": {
+            {
+              "id": "est",
+              "name": "Est",
+              "city": "Bertoua"
+            },
+            {
+              "id": "extreme-nord",
+              "name": "Extrême-Nord",
+              "city": "Maroua"
+            },
+            {
+              "id": "littoral",
               "name": "Littoral",
-              "city": "Douala",
-              "profiles": []
+              "city": "Douala"
             },
-            "ouest": {
-              "name": "Ouest",
-              "city": "Bafoussam",
-              "profiles": []
-            },
-            "nord": {
+            {
+              "id": "nord",
               "name": "Nord",
-              "city": "Garoua",
-              "profiles": []
+              "city": "Garoua"
+            },
+            {
+              "id": "nord-ouest",
+              "name": "Nord-Ouest",
+              "city": "Bamenda"
+            },
+            {
+              "id": "ouest",
+              "name": "Ouest",
+              "city": "Bafoussam"
+            },
+            {
+              "id": "sud",
+              "name": "Sud",
+              "city": "Ebolowa"
+            },
+            {
+              "id": "sud-ouest",
+              "name": "Sud-Ouest",
+              "city": "Buéa"
             }
-          }
+          ],
+
+          "profiles": [
+            {
+              "id": 1,
+              "name": "Jessica",
+              "age": 22,
+              "photo": "images/jessica.jpg",
+              "video": "videos/jessica.mp4",
+              "description": "Charmante, discrète et très accueillante.",
+              "availability": "busy",
+              "minutes": 12,
+              "prices": {
+                "30min": 10000,
+                "1h": 18000,
+                "night": 70000,
+                "day": 120000
+              }
+            }
+          ]
         }
       }
     },
