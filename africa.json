@@ -27,6 +27,9 @@
               "age": 22,
               "description": "Élégante et discrète",
               "image": "Jessica.jpg",
+
+"video": "videos/jessica.mp4",
+
               "status": "available",
               "statusText": "Disponible maintenant",
               "prices": {
@@ -42,6 +45,8 @@
               "age": 24,
               "description": "Douce et souriante",
               "image": "Julie.jpg",
+
+"video": "videos/Julie.mp4",
               "status": "busy",
               "statusText": "Se libère dans 10 min",
               "prices": {
@@ -61,6 +66,8 @@
               "age": 24,
               "description": "Douce et souriante",
               "image": "Emma.jpg",
+
+"video": "videos/Emma.mp4",
               "status": "busy",
               "statusText": "Se libère dans 35 min",
               "prices": {
@@ -78,6 +85,9 @@
               "age": 23,
               "description": " Emotif",
               "image": "Monique.jpg",
+
+"video": "videos/Monique.mp4",
+
               "status": "busy",
               "statusText": "Se libère dans 35 min",
               "prices": {
