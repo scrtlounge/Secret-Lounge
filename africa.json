@@ -226,4 +226,4 @@
           "name": "District Autonome d'Abidjan",
           "city": "Abidjan",
           "profiles": [
-            { "id": 501, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos
+            { "id": 501, "name": "Exemple 1", "age": 25, "description": "Description à remplacer", "image": "default.jpg", "video": "videos/default.mp4", "status": "available", "statusText": "Disponible", "prices": { "30min": "5000", "1h": "10000", "ha
