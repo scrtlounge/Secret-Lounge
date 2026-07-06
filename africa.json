@@ -18,22 +18,61 @@
         {
           "id": "centre",
           "name": "Centre",
-          "city": "Yaoundé"
+          "city": "Yaoundé",
+
+          "profiles": [
+            {
+              "id": 1,
+              "name": "Jessica",
+              "age": 22,
+              "description": "Élégante et discrète",
+              "image": "Jessica.jpg",
+              "status": "available",
+              "statusText": "Disponible maintenant",
+              "prices": {
+                "30min": "10000",
+                "1h": "18000",
+                "night": "70000",
+                "day": "120000"
+              }
+            },
+            {
+              "id": 2,
+              "name": "Sandra",
+              "age": 24,
+              "description": "Douce et souriante",
+              "image": "Sandra.jpg",
+              "status": "busy",
+              "statusText": "Se libère dans 45 min",
+              "prices": {
+                "30min": "12000",
+                "1h": "20000",
+                "night": "80000",
+                "day": "140000"
+              }
+            }
+          ]
         },
+
         {
           "id": "littoral",
           "name": "Littoral",
-          "city": "Douala"
+          "city": "Douala",
+          "profiles": []
         },
+
         {
           "id": "ouest",
           "name": "Ouest",
-          "city": "Bafoussam"
+          "city": "Bafoussam",
+          "profiles": []
         },
+
         {
           "id": "nord",
           "name": "Nord",
-          "city": "Garoua"
+          "city": "Garoua",
+          "profiles": []
         }
       ]
     }
