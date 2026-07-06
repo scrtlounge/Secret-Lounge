@@ -1,0 +1,565 @@
+{
+  "continents": {
+    "africa": {
+      "name": "Afrique",
+      "countries": {
+        "senegal": {
+          "name": "Sénégal",
+          "language": "Français, Wolof",
+          "currency": "FCFA",
+          "currencySymbol": "CFA",
+          "regions": {
+            "dakar": {
+              "name": "Dakar",
+              "profiles": [
+                {
+                  "id": 1,
+                  "name": "Amara",
+                  "age": 23,
+                  "description": "Élégante et discrète",
+                  "image": "Amara.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 2,
+                  "name": "Aïssatou",
+                  "age": 25,
+                  "description": "Douce présence, respect absolu",
+                  "image": "Aïssatou.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 45min",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 3,
+                  "name": "Fatou",
+                  "age": 26,
+                  "description": "Charme naturel, esprit calme",
+                  "image": "Fatou.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 4,
+                  "name": "Mariam",
+                  "age": 24,
+                  "description": "Allure raffinée, attitude posée",
+                  "image": "Mariam.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 1h30",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 5,
+                  "name": "Ndeye",
+                  "age": 22,
+                  "description": "Présence lumineuse, discrétion assurée",
+                  "image": "Ndeye.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 6,
+                  "name": "Oumou",
+                  "age": 23,
+                  "description": "Élégance mature, échanges respectueux",
+                  "image": "Oumou.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 7,
+                  "name": "Penda",
+                  "age": 25,
+                  "description": "Style sobre, charme discret",
+                  "image": "Penda.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 30min",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 8,
+                  "name": "Rana",
+                  "age": 23,
+                  "description": "Féminité subtile, douceur naturelle",
+                  "image": "Rana.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 9,
+                  "name": "Saly",
+                  "age": 24,
+                  "description": "Mystérieuse et calme",
+                  "image": "Saly.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 2h",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 10,
+                  "name": "Téné",
+                  "age": 26,
+                  "description": "Simplicité chic, élégance naturelle",
+                  "image": "Téné.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                }
+              ]
+            },
+            "thiès": {
+              "name": "Thiès",
+              "profiles": [
+                {
+                  "id": 1,
+                  "name": "Awa",
+                  "age": 22,
+                  "description": "Douce et souriante",
+                  "image": "Awa.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 2,
+                  "name": "Binta",
+                  "age": 24,
+                  "description": "Présence délicate, esprit ouvert",
+                  "image": "Binta.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 1h",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 3,
+                  "name": "Coumba",
+                  "age": 25,
+                  "description": "Allure moderne, discrétion garantie",
+                  "image": "Coumba.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 4,
+                  "name": "Diatou",
+                  "age": 28,
+                  "description": "Élégance classique, calme assuré",
+                  "image": "Diatou.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 5,
+                  "name": "Evelyne",
+                  "age": 21,
+                  "description": "Présence chaleureuse, respect avant tout",
+                  "image": "Evelyne.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 30min",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 6,
+                  "name": "Fatoumata",
+                  "age": 24,
+                  "description": "Charme simple, moments choisis",
+                  "image": "Fatoumata.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 7,
+                  "name": "Gina",
+                  "age": 20,
+                  "description": "Brute, audacieuse, respectueuse",
+                  "image": "Gina.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 8,
+                  "name": "Hawa",
+                  "age": 23,
+                  "description": "Élégante et discrète",
+                  "image": "Hawa.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 45min",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 9,
+                  "name": "Issa",
+                  "age": 25,
+                  "description": "Douce présence, respect absolu",
+                  "image": "Issa.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 10,
+                  "name": "Jeannine",
+                  "age": 26,
+                  "description": "Charme naturel, esprit calme",
+                  "image": "Jeannine.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                }
+              ]
+            }
+          }
+        },
+        "côte_d_ivoire": {
+          "name": "Côte d'Ivoire",
+          "language": "Français, Dioula, Baoulé",
+          "currency": "FCFA",
+          "currencySymbol": "CFA",
+          "regions": {
+            "abidjan": {
+              "name": "Abidjan",
+              "profiles": [
+                {
+                  "id": 1,
+                  "name": "Akosua",
+                  "age": 24,
+                  "description": "Allure raffinée, attitude posée",
+                  "image": "Akosua.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 2,
+                  "name": "Amélie",
+                  "age": 22,
+                  "description": "Présence lumineuse, discrétion assurée",
+                  "image": "Amélie.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 1h",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 3,
+                  "name": "Ariane",
+                  "age": 23,
+                  "description": "Élégance mature, échanges respectueux",
+                  "image": "Ariane.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 4,
+                  "name": "Ase",
+                  "age": 25,
+                  "description": "Style sobre, charme discret",
+                  "image": "Ase.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 5,
+                  "name": "Astrée",
+                  "age": 23,
+                  "description": "Féminité subtile, douceur naturelle",
+                  "image": "Astrée.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 2h",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 6,
+                  "name": "Azura",
+                  "age": 24,
+                  "description": "Mystérieuse et calme",
+                  "image": "Azura.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 7,
+                  "name": "Batrice",
+                  "age": 26,
+                  "description": "Simplicité chic, élégance naturelle",
+                  "image": "Batrice.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 8,
+                  "name": "Béatrice",
+                  "age": 21,
+                  "description": "Douce et souriante",
+                  "image": "Béatrice.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 30min",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 9,
+                  "name": "Camille",
+                  "age": 24,
+                  "description": "Présence délicate, esprit ouvert",
+                  "image": "Camille.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 10,
+                  "name": "Céleste",
+                  "age": 25,
+                  "description": "Allure moderne, discrétion garantie",
+                  "image": "Céleste.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                }
+              ]
+            },
+            "yamoussoukro": {
+              "name": "Yamoussoukro",
+              "profiles": [
+                {
+                  "id": 1,
+                  "name": "Chantal",
+                  "age": 28,
+                  "description": "Élégance classique, calme assuré",
+                  "image": "Chantal.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 2,
+                  "name": "Chloé",
+                  "age": 21,
+                  "description": "Présence chaleureuse, respect avant tout",
+                  "image": "Chloé.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 45min",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 3,
+                  "name": "Christine",
+                  "age": 24,
+                  "description": "Charme simple, moments choisis",
+                  "image": "Christine.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 4,
+                  "name": "Cindy",
+                  "age": 20,
+                  "description": "Émotive, sensible, libertine",
+                  "image": "Cindy.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 5,
+                  "name": "Claudette",
+                  "age": 22,
+                  "description": "Douce et souriante",
+                  "image": "Claudette.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 1h30",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 6,
+                  "name": "Clarisse",
+                  "age": 24,
+                  "description": "Présence délicate, esprit ouvert",
+                  "image": "Clarisse.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 7,
+                  "name": "Clémence",
+                  "age": 25,
+                  "description": "Allure moderne, discrétion garantie",
+                  "image": "Clémence.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 8,
+                  "name": "Clothilde",
+                  "age": 19,
+                  "description": "Élégance classique, calme assuré",
+                  "image": "Clothilde.jpg",
+                  "availability": "unavailable",
+                  "availabilityTime": "Se libère dans 30min",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 9,
+                  "name": "Colette",
+                  "age": 23,
+                  "description": "Présence chaleureuse, respect avant tout",
+                  "image": "Colette.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                },
+                {
+                  "id": 10,
+                  "name": "Corinne",
+                  "age": 24,
+                  "description": "Charme simple, moments choisis",
+                  "image": "Corinne.jpg",
+                  "availability": "available",
+                  "availabilityTime": "Disponible maintenant",
+                  "pricePerHour": "À_DÉFINIR",
+                  "price30Min": "À_DÉFINIR",
+                  "priceFullNight": "À_DÉFINIR",
+                  "priceFullDay": "À_DÉFINIR"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
