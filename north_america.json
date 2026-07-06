@@ -1,0 +1,241 @@
+{
+  "continent": "Amérique du Nord",
+  "countries": [
+    {
+      "id": "usa",
+      "name": "États-Unis",
+      "flag": "🇺🇸",
+      "language": ["Anglais"],
+      "currency": "Dollar américain",
+      "currencySymbol": "$",
+      "regions": [
+        { "id": "new_york", "name": "État de New York", "city": "New York", "profiles": [] },
+        { "id": "californie", "name": "Californie", "city": "Los Angeles", "profiles": [] },
+        { "id": "floride", "name": "Floride", "city": "Miami", "profiles": [] },
+        { "id": "illinois", "name": "Illinois", "city": "Chicago", "profiles": [] }
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "language": ["Anglais", "Français"],
+      "currency": "Dollar canadien",
+      "currencySymbol": "CAD",
+      "regions": [
+        { "id": "ontario", "name": "Ontario", "city": "Toronto", "profiles": [] },
+        { "id": "quebec", "name": "Québec", "city": "Montréal", "profiles": [] },
+        { "id": "colombie_britannique", "name": "Colombie-Britannique", "city": "Vancouver", "profiles": [] }
+      ]
+    },
+    {
+      "id": "mexico",
+      "name": "Mexique",
+      "flag": "🇲🇽",
+      "language": ["Espagnol"],
+      "currency": "Peso mexicain",
+      "currencySymbol": "MXN",
+      "regions": [
+        { "id": "cdmx", "name": "Mexico (CDMX)", "city": "Mexico", "profiles": [] },
+        { "id": "quintana_roo", "name": "Quintana Roo", "city": "Cancún", "profiles": [] },
+        { "id": "jalisco", "name": "Jalisco", "city": "Guadalajara", "profiles": [] }
+      ]
+    },
+    {
+      "id": "guatemala",
+      "name": "Guatemala",
+      "flag": "🇬🇹",
+      "language": ["Espagnol"],
+      "currency": "Quetzal",
+      "currencySymbol": "GTQ",
+      "regions": [
+        { "id": "guatemala_city", "name": "Guatemala", "city": "Guatemala Ciudad", "profiles": [] },
+        { "id": "solola", "name": "Sololá", "city": "Panajachel", "profiles": [] }
+      ]
+    },
+    {
+      "id": "belize",
+      "name": "Belize",
+      "flag": "🇧🇿",
+      "language": ["Anglais", "Espagnol"],
+      "currency": "Dollar bélizien",
+      "currencySymbol": "BZD",
+      "regions": [
+        { "id": "belize_district", "name": "District de Belize", "city": "Belize City", "profiles": [] }
+      ]
+    },
+    {
+      "id": "honduras",
+      "name": "Honduras",
+      "flag": "🇭🇳",
+      "language": ["Espagnol"],
+      "currency": "Lempira",
+      "currencySymbol": "HNL",
+      "regions": [
+        { "id": "francisco_morazan", "name": "Francisco Morazán", "city": "Tegucigalpa", "profiles": [] },
+        { "id": "islas_bahia", "name": "Îles de la Baie", "city": "Roatán", "profiles": [] }
+      ]
+    },
+    {
+      "id": "el_salvador",
+      "name": "Salvador",
+      "flag": "🇸🇻",
+      "language": ["Espagnol"],
+      "currency": "Dollar américain",
+      "currencySymbol": "$",
+      "regions": [
+        { "id": "san_salvador", "name": "San Salvador", "city": "San Salvador", "profiles": [] }
+      ]
+    },
+    {
+      "id": "nicaragua",
+      "name": "Nicaragua",
+      "flag": "🇳🇮",
+      "language": ["Espagnol"],
+      "currency": "Córdoba",
+      "currencySymbol": "NIO",
+      "regions": [
+        { "id": "managua", "name": "Managua", "city": "Managua", "profiles": [] },
+        { "id": "rivas", "name": "Rivas", "city": "San Juan del Sur", "profiles": [] }
+      ]
+    },
+    {
+      "id": "costa_rica",
+      "name": "Costa Rica",
+      "flag": "🇨🇷",
+      "language": ["Espagnol"],
+      "currency": "Colón costaricien",
+      "currencySymbol": "CRC",
+      "regions": [
+        { "id": "san_jose", "name": "San José", "city": "San José", "profiles": [] },
+        { "id": "guanacaste", "name": "Guanacaste", "city": "Tamarindo", "profiles": [] },
+        { "id": "puntarenas", "name": "Puntarenas", "city": "Manuel Antonio", "profiles": [] }
+      ]
+    },
+    {
+      "id": "panama",
+      "name": "Panama",
+      "flag": "🇵🇦",
+      "language": ["Espagnol"],
+      "currency": "Balboa / Dollar américain",
+      "currencySymbol": "PAB",
+      "regions": [
+        { "id": "panama_province", "name": "Panamá", "city": "Panama City", "profiles": [] },
+        { "id": "bocas_del_toro", "name": "Bocas del Toro", "city": "Bocas Town", "profiles": [] }
+      ]
+    },
+    {
+      "id": "cuba",
+      "name": "Cuba",
+      "flag": "🇨🇺",
+      "language": ["Espagnol"],
+      "currency": "Peso cubain",
+      "currencySymbol": "CUP",
+      "regions": [
+        { "id": "la_havane", "name": "La Havane", "city": "La Havane", "profiles": [] },
+        { "id": "varadero", "name": "Matanzas", "city": "Varadero", "profiles": [] }
+      ]
+    },
+    {
+      "id": "jamaica",
+      "name": "Jamaïque",
+      "flag": "🇯🇲",
+      "language": ["Anglais"],
+      "currency": "Dollar jamaïcain",
+      "currencySymbol": "JMD",
+      "regions": [
+        { "id": "kingston", "name": "Kingston", "city": "Kingston", "profiles": [] },
+        { "id": "saint_james", "name": "Saint James", "city": "Montego Bay", "profiles": [] }
+      ]
+    },
+    {
+      "id": "haiti",
+      "name": "Haïti",
+      "flag": "🇭🇹",
+      "language": ["Français", "Créole haïtien"],
+      "currency": "Gourde",
+      "currencySymbol": "HTG",
+      "regions": [
+        { "id": "ouest_ht", "name": "Ouest", "city": "Port-au-Prince", "profiles": [] }
+      ]
+    },
+    {
+      "id": "dominican_republic",
+      "name": "République Dominicaine",
+      "flag": "🇩🇴",
+      "language": ["Espagnol"],
+      "currency": "Peso dominicain",
+      "currencySymbol": "DOP",
+      "regions": [
+        { "id": "santo_domingo", "name": "Santo Domingo", "city": "Santo Domingo", "profiles": [] },
+        { "id": "punta_cana", "name": "La Altagracia", "city": "Punta Cana", "profiles": [] }
+      ]
+    },
+    {
+      "id": "bahamas",
+      "name": "Bahamas",
+      "flag": "🇧🇸",
+      "language": ["Anglais"],
+      "currency": "Dollar bahaméen",
+      "currencySymbol": "BSD",
+      "regions": [
+        { "id": "new_providence", "name": "New Providence", "city": "Nassau", "profiles": [] }
+      ]
+    },
+    {
+      "id": "trinidad_and_tobago",
+      "name": "Trinité-et-Tobago",
+      "flag": "🇹🇹",
+      "language": ["Anglais"],
+      "currency": "Dollar de Trinité-et-Tobago",
+      "currencySymbol": "TTD",
+      "regions": [
+        { "id": "port_of_spain", "name": "Port of Spain", "city": "Port of Spain", "profiles": [] }
+      ]
+    },
+    {
+      "id": "barbados",
+      "name": "Barbade",
+      "flag": "🇧🇧",
+      "language": ["Anglais"],
+      "currency": "Dollar barbadien",
+      "currencySymbol": "BBD",
+      "regions": [
+        { "id": "bridgetown", "name": "Saint Michael", "city": "Bridgetown", "profiles": [] }
+      ]
+    },
+    {
+      "id": "antigua_and_barbuda",
+      "name": "Antigua-et-Barbuda",
+      "flag": "🇦🇬",
+      "language": ["Anglais"],
+      "currency": "Dollar des Caraïbes orientales",
+      "currencySymbol": "XCD",
+      "regions": [
+        { "id": "saint_john", "name": "Saint John", "city": "Saint John's", "profiles": [] }
+      ]
+    },
+    {
+      "id": "grenada",
+      "name": "Grenade",
+      "flag": "🇬🇩",
+      "language": ["Anglais"],
+      "currency": "Dollar des Caraïbes orientales",
+      "currencySymbol": "XCD",
+      "regions": [
+        { "id": "saint_george", "name": "Saint George", "city": "Saint George's", "profiles": [] }
+      ]
+    },
+    {
+      "id": "saint_lucia",
+      "name": "Sainte-Lucie",
+      "flag": "🇱🇨",
+      "language": ["Anglais"],
+      "currency": "Dollar des Caraïbes orientales",
+      "currencySymbol": "XCD",
+      "regions": [
+        { "id": "castries", "name": "Castries", "city": "Castries", "profiles": [] }
+      ]
+    }
+  ]
+}
