@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Choix de la région | Secret Lounge</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Choix de la région | Secret Lounge</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Vérification de l'âge (si l'utilisateur n'a pas encore validé son âge) -->
-  <script>
-    if (localStorage.getItem("ageVerified") !== "true") {
-      window.location.href = "verificationAge.html";
-    }
-  </script>
+<script>
+if(localStorage.getItem("ageVerified")!=="true"){
+    window.location.href="verificationAge.html";
+}
 
-  <!-- CSS spécifique pour la page région -->
-  <link rel="stylesheet" href="region.css">
+if(!localStorage.getItem("userCountry")){
+    window.location.href="country.html";
+}
+</script>
+
+<link rel="stylesheet" href="region.css">
+
 </head>
+
 <body>
 
-  <div class="region-container">
-    <h1>📍 Sélectionnez votre région</h1>
-    <p>Veuillez choisir votre région pour continuer</p>
+<div class="region-container">
 
-    <div class="region-list">
-      <button data-region="Adamaoua">Adamaoua <span>Ngaoundéré</span></button>
-      <button data-region="Centre">Centre <span>Yaoundé</span></button>
-      <button data-region="Est">Est <span>Bertoua</span></button>
-      <button data-region="Extrême-Nord">Extrême-Nord <span>Maroua</span></button>
-      <button data-region="Littoral">Littoral <span>Douala</span></button>
-      <button data-region="Nord">Nord <span>Garoua</span></button>
-      <button data-region="Nord-Ouest">Nord-Ouest <span>Bamenda</span></button>
-      <button data-region="Ouest">Ouest <span>Bafoussam</span></button>
-      <button data-region="Sud">Sud <span>Ebolowa</span></button>
-      <button data-region="Sud-Ouest">Sud-Ouest <span>Buéa</span></button>
-    </div>
+<h1>📍 Choisissez votre région</h1>
 
-    <div class="loading" id="loading">
-      ⏳ Redirection en cours…
-    </div>
-  </div>
+<p id="countryName"></p>
 
-  <!-- Script JS pour gérer le choix de région -->
-  <script src="region.js"></script>
+<div class="region-list" id="regionList">
+
+</div>
+
+<div class="loading" id="loading">
+
+⏳ Chargement...
+
+</div>
+
+</div>
+
+<script src="region.js"></script>
 
 </body>
 </html>
