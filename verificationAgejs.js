@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Si déjà validé → direction région
   if (localStorage.getItem("ageVerified") === "true") {
-    window.location.href = "region.html";
+    window.location.href = "continent.html";
     return;
   }
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (age >= 18) {
       localStorage.setItem("ageVerified", "true");
-      window.location.href = "region.html";
+      window.location.href = "continent.html";
     } else {
       error.innerText = "Accès refusé : vous devez avoir 18 ans ou plus";
     }
