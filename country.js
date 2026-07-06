@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             file = "europe.json";
             break;
 
-        case "america":
+        case "americas":
             file = "americas.json";
             break;
 
