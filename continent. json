@@ -1,0 +1,28 @@
+{
+  "continents": [
+    {
+      "id": "africa",
+      "name": "Afrique",
+      "emoji": "🌍",
+      "file": "africa.json"
+    },
+    {
+      "id": "asia",
+      "name": "Asie",
+      "emoji": "🌏",
+      "file": "asia.json"
+    },
+    {
+      "id": "europe",
+      "name": "Europe",
+      "emoji": "🇪🇺",
+      "file": "europe.json"
+    },
+    {
+      "id": "america",
+      "name": "Amériques",
+      "emoji": "🌎",
+      "file": "america.json"
+    }
+  ]
+}
