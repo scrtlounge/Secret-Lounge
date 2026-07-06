@@ -13,397 +13,116 @@
       "registrationPrice": 5000,
       "whatsapp": "237682247549",
       "facebook": "https://m.me/ton_compte",
-
       "regions": [
         {
           "id": "centre",
           "name": "Centre",
           "city": "Yaoundé",
-
           "profiles": [
             {
               "id": 1,
               "name": "Jessica",
               "age": 22,
-              "description": "Élégante et discrète",
+              "description": "Guide spécialisée en histoire locale et musées",
               "image": "Jessica.jpg",
-
-"video": "videos/jessica.mp4",
-
+              "video": "videos/jessica.mp4",
               "status": "available",
               "statusText": "Disponible maintenant",
               "prices": {
                 "30min": "10000",
                 "1h": "18000",
-                "night": "70000",
-                "day": "120000"
+                "half_day": "70000",
+                "full_day": "120000"
               }
             },
             {
               "id": 2,
               "name": "Julie",
               "age": 24,
-              "description": "Douce et souriante",
+              "description": "Experte en randonnées urbaines et parcs",
               "image": "Julie.jpg",
-
-"video": "videos/Julie.mp4",
+              "video": "videos/Julie.mp4",
               "status": "busy",
-              "statusText": "Se libère dans 10 min",
+              "statusText": "En visite - Libre dans 10 min",
               "prices": {
                 "30min": "7000",
                 "1h30": "10000",
-                "night": "35000",
-                "day": "50000"
+                "half_day": "35000",
+                "full_day": "50000"
               }
             },
-
-
-
-
-{
+            {
               "id": 3,
               "name": "Emma",
               "age": 24,
-              "description": "Douce et souriante",
+              "description": "Spécialiste de la gastronomie et des marchés",
               "image": "Emma.jpg",
-
-"video": "videos/Emma.mp4",
+              "video": "videos/Emma.mp4",
               "status": "busy",
-              "statusText": "Se libère dans 35 min",
+              "statusText": "En visite - Libre dans 35 min",
               "prices": {
                 "30min": "5000",
                 "1h": "9000",
-                "night": "30000",
-                "day": "40000"
+                "half_day": "30000",
+                "full_day": "40000"
               }
             },
-
-
-{
-              "id": 3,
+            {
+              "id": 4,
               "name": "Monique",
               "age": 23,
-              "description": " Emotif",
+              "description": "Animatrice culturelle et ateliers d'art",
               "image": "Monique.jpg",
-
-"video": "videos/Monique.mp4",
-
+              "video": "videos/Monique.mp4",
               "status": "busy",
-              "statusText": "Se libère dans 35 min",
+              "statusText": "En visite - Libre dans 35 min",
               "prices": {
                 "30min": "5000",
                 "1h": "8000",
-                "night": "30000",
-                "day": "40000"
+                "half_day": "30000",
+                "full_day": "40000"
               }
-            },
-
+            }
           ]
         },
-
         {
           "id": "littoral",
           "name": "Littoral",
           "city": "Douala",
           "profiles": [
-
-
-
-      {
+            {
               "id": 1,
               "name": "Jessica",
               "age": 22,
-              "description": "Élégante et discrète",
+              "description": "Guide spécialisée en histoire locale et musées",
               "image": "Jessica.jpg",
-
-"video": "videos/jessica.mp4",
-
+              "video": "videos/jessica.mp4",
               "status": "available",
               "statusText": "Disponible maintenant",
               "prices": {
                 "30min": "10000",
                 "1h": "18000",
-                "night": "70000",
-                "day": "120000"
+                "half_day": "70000",
+                "full_day": "120000"
               }
             },
             {
               "id": 2,
               "name": "Julie",
               "age": 24,
-              "description": "Douce et souriante",
+              "description": "Experte en randonnées urbaines et parcs",
               "image": "Julie.jpg",
-
-"video": "videos/Julie.mp4",
+              "video": "videos/Julie.mp4",
               "status": "busy",
-              "statusText": "Se libère dans 10 min",
+              "statusText": "En visite - Libre dans 10 min",
               "prices": {
                 "30min": "7000",
                 "1h30": "10000",
-                "night": "35000",
-                "day": "50000"
-              }
-            },
-
-
-
-
-{
-              "id": 3,
-              "name": "Emma",
-              "age": 24,
-              "description": "Douce et souriante",
-              "image": "Emma.jpg",
-
-"video": "videos/Emma.mp4",
-              "status": "busy",
-              "statusText": "Se libère dans 35 min",
-              "prices": {
-                "30min": "5000",
-                "1h": "9000",
-                "night": "30000",
-                "day": "40000"
-              }
-            },
-
-
-{
-              "id": 4,
-              "name": "Monique",
-              "age": 23,
-              "description": " Emotif",
-              "image": "Monique.jpg",
-
-"video": "videos/Monique.mp4",
-
-              "status": "busy",
-              "statusText": "Se libère dans 35 min",
-              "prices": {
-                "30min": "5000",
-                "1h": "8000",
-                "night": "30000",
-                "day": "40000"
-              }
-            },
-
-          ]
-        },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-]
-        },
-
-        {
-          "id": "ouest",
-          "name": "Ouest",
-          "city": "Bafoussam",
-          "profiles": [
-
-
-
-      {
-              "id": 1,
-              "name": "Jessica",
-              "age": 22,
-              "description": "Élégante et discrète",
-              "image": "Jessica.jpg",
-
-"video": "videos/jessica.mp4",
-
-              "status": "available",
-              "statusText": "Disponible maintenant",
-              "prices": {
-                "30min": "10000",
-                "1h": "18000",
-                "night": "70000",
-                "day": "120000"
-              }
-            },
-            {
-              "id": 2,
-              "name": "Julie",
-              "age": 24,
-              "description": "Douce et souriante",
-              "image": "Julie.jpg",
-
-"video": "videos/Julie.mp4",
-              "status": "busy",
-              "statusText": "Se libère dans 10 min",
-              "prices": {
-                "30min": "7000",
-                "1h30": "10000",
-                "night": "35000",
-                "day": "50000"
-              }
-            },
-
-
-
-
-{
-              "id": 3,
-              "name": "Emma",
-              "age": 24,
-              "description": "Douce et souriante",
-              "image": "Emma.jpg",
-
-"video": "videos/Emma.mp4",
-              "status": "busy",
-              "statusText": "Se libère dans 35 min",
-              "prices": {
-                "30min": "5000",
-                "1h": "9000",
-                "night": "30000",
-                "day": "40000"
-              }
-            },
-
-
-{
-              "id": 4,
-              "name": "Monique",
-              "age": 23,
-              "description": " Emotif",
-              "image": "Monique.jpg",
-
-"video": "videos/Monique.mp4",
-
-              "status": "busy",
-              "statusText": "Se libère dans 35 min",
-              "prices": {
-                "30min": "5000",
-                "1h": "8000",
-                "night": "30000",
-                "day": "40000"
+                "half_day": "35000",
+                "full_day": "50000"
               }
             }
-
           ]
-        },
-
-
-
-
-
-]
-        },
-
-        {
-          "id": "nord",
-          "name": "Nord",
-          "city": "Garoua",
-          "profiles": [
-
-
-
-      {
-              "id": 1,
-              "name": "Jessica",
-              "age": 22,
-              "description": "Élégante et discrète",
-              "image": "Jessica.jpg",
-
-"video": "videos/jessica.mp4",
-
-              "status": "available",
-              "statusText": "Disponible maintenant",
-              "prices": {
-                "30min": "10000",
-                "1h": "18000",
-                "night": "70000",
-                "day": "120000"
-              }
-            },
-            {
-              "id": 2,
-              "name": "Julie",
-              "age": 24,
-              "description": "Douce et souriante",
-              "image": "Julie.jpg",
-
-"video": "videos/Julie.mp4",
-              "status": "busy",
-              "statusText": "Se libère dans 10 min",
-              "prices": {
-                "30min": "7000",
-                "1h30": "10000",
-                "night": "35000",
-                "day": "50000"
-              }
-            },
-
-
-
-
-{
-              "id": 3,
-              "name": "Emma",
-              "age": 24,
-              "description": "Douce et souriante",
-              "image": "Emma.jpg",
-
-"video": "videos/Emma.mp4",
-              "status": "busy",
-              "statusText": "Se libère dans 35 min",
-              "prices": {
-                "30min": "5000",
-                "1h": "9000",
-                "night": "30000",
-                "day": "40000"
-              }
-            },
-
-
-{
-              "id": 4,
-              "name": "Monique",
-              "age": 23,
-              "description": " Emotif",
-              "image": "Monique.jpg",
-
-"video": "videos/Monique.mp4",
-
-              "status": "busy",
-              "statusText": "Se libère dans 35 min",
-              "prices": {
-                "30min": "5000",
-                "1h": "8000",
-                "night": "30000",
-                "day": "40000"
-              }
-            },
-
-          ]
-        },
-
-
-
-]
         }
       ]
     }
