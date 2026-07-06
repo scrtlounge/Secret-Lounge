@@ -58,7 +58,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                 localStorage.setItem("userCountry", country.id);
 
-                window.location.href = "region.html";
+ localStorage.setItem("countryFile", file);
+               window.location.href = "region.html";
 
             });
 
