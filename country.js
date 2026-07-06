@@ -1,69 +1,56 @@
-document.addEventListener("DOMContentLoaded", ()=>{
+document.addEventListener("DOMContentLoaded", async () => {
 
-const continent=localStorage.getItem("userContinent");
+    const continent = localStorage.getItem("userContinent");
 
-if(!continent){
+    if (!continent) {
+        window.location.href = "continent.html";
+        return;
+    }
 
-window.location.href="continent.html";
+    const subtitle = document.getElementById("subtitle");
+    const countryList = document.getElementById("countryList");
 
-return;
+    try {
 
-}
+        const response = await fetch("Countries.json");
+        const data = await response.json();
 
-const subtitle=document.getElementById("subtitle");
+        const countries = data.continents[continent].countries;
 
-const list=document.getElementById("countryList");
+        subtitle.textContent = "Choisissez votre pays";
 
-const countries={
+        for (const key in countries) {
 
-africa:[
-"🇨🇲 Cameroun",
-"🇸🇳 Sénégal",
-"🇨🇮 Côte d'Ivoire",
-"🇬🇦 Gabon",
-"🇳🇬 Nigeria"
-],
+            const country = countries[key];
 
-asia:[
-"🇹🇭 Thaïlande",
-"🇵🇭 Philippines",
-"🇮🇩 Indonésie"
-],
+            const button = document.createElement("button");
 
-europe:[
-"🇫🇷 France",
-"🇩🇪 Allemagne",
-"🇪🇸 Espagne"
-],
+            button.className = "country-btn";
 
-america:[
-"🇺🇸 États-Unis",
-"🇨🇦 Canada",
-"🇧🇷 Brésil"
-]
+            button.innerHTML = `
+                <strong>${country.name}</strong><br>
+                <small>${country.language}</small><br>
+                <small>${country.currency}</small>
+            `;
 
-};
+            button.addEventListener("click", () => {
 
-subtitle.innerHTML="Sélectionnez votre pays.";
+                localStorage.setItem("userCountry", key);
 
-countries[continent].forEach(country=>{
+                window.location.href = "region.html";
 
-const btn=document.createElement("button");
+            });
 
-btn.className="country-btn";
+            countryList.appendChild(button);
 
-btn.innerHTML=country;
+        }
 
-btn.onclick=()=>{
+    } catch (e) {
 
-localStorage.setItem("userCountry",country);
+        subtitle.textContent = "Impossible de charger les pays.";
 
-window.location.href="region.html";
+        console.error(e);
 
-};
-
-list.appendChild(btn);
-
-});
+    }
 
 });
