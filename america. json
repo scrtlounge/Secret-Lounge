@@ -1,7 +1,6 @@
-{
-  "continents": [
+
     {
-      "continent": "Amérique",
+      "continent": "Amerique",
       "countries": [
         {
           "id": "usa",
