@@ -558,9 +558,231 @@
       "currency": "FCFA",
       "currencySymbol": "FCFA",
       "regions": [
-        { "id": "estuaire", "name": "Estuaire", "city": "Libreville", "profiles": [] },
-        { "id": "haut_ogooue", "name": "Haut-Ogooué", "city": "Franceville", "profiles": [] },
-        { "id": "ogooue_maritime", "name": "Ogooué-Maritime", "city": "Port-Gentil", "profiles": [] }
+        { "id": "estuaire", "name": "Estuaire", "city": "Libreville", "profiles": [
+
+
+  {
+    "id": "estuaire_01",
+    "name": "Emma",
+    "age": 23,
+    "description": "Élégante, discrète et toujours souriante.",
+    "image": "Emma.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "15000",
+      "1h": "25000",
+      "night": "90000",
+      "day": "150000"
+    }
+  },
+  {
+    "id": "estuaire_02",
+    "name": "Claire",
+    "age": 24,
+    "description": "Profil vidéo premium avec contenu exclusif.",
+    "image": "Claire.jpg",
+    "video": "videos/claire.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "estuaire_03",
+    "name": "Jade",
+    "age": 22,
+    "description": "Naturelle, raffinée et accueillante.",
+    "image": "Jade.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "14000",
+      "1h": "23000",
+      "night": "85000",
+      "day": "145000"
+    }
+  },
+  {
+    "id": "estuaire_04",
+    "name": "Jessica",
+    "age": 25,
+    "description": "Nouvelles vidéos ajoutées régulièrement.",
+    "image": "Jessica.jpg",
+    "video": "videos/jessica.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "95000",
+      "day": "160000"
+    }
+  }
+
+
+
+] },
+        { "id": "haut_ogooue", "name": "Haut-Ogooué", "city": "Franceville", "profiles": [
+
+  {
+    "id": "haut_ogooue_01",
+    "name": "Camille",
+    "age": 23,
+    "description": "Souriante, discrète et élégante.",
+    "image": "Camille.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "15000",
+      "1h": "25000",
+      "night": "90000",
+      "day": "150000"
+    }
+  },
+  {
+    "id": "haut_ogooue_02",
+    "name": "Inès",
+    "age": 24,
+    "description": "Profil vidéo vérifié.",
+    "image": "Ines.jpg",
+    "video": "videos/ines.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "haut_ogooue_03",
+    "name": "Julie",
+    "age": 22,
+    "description": "Accueillante et attentionnée.",
+    "image": "Julie.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "14000",
+      "1h": "23000",
+      "night": "85000",
+      "day": "145000"
+    }
+  },
+  {
+    "id": "haut_ogooue_04",
+    "name": "Ambre",
+    "age": 25,
+    "description": "Contenu vidéo mis à jour fréquemment.",
+    "image": "Ambre.jpg",
+    "video": "videos/ambre.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "95000",
+      "day": "160000"
+    }
+  }
+
+
+
+] },
+        { "id": "ogooue_maritime", "name": "Ogooué-Maritime", "city": "Port-Gentil", "profiles": [
+
+
+
+  {
+    "id": "ogooue_maritime_01",
+    "name": "Emma",
+    "age": 23,
+    "description": "Élégante, discrète et souriante.",
+    "image": "Emma.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "15000",
+      "1h": "25000",
+      "night": "90000",
+      "day": "150000"
+    }
+  },
+  {
+    "id": "ogooue_maritime_02",
+    "name": "Jessica",
+    "age": 24,
+    "description": "Profil vidéo premium avec contenu exclusif.",
+    "image": "Jessica.jpg",
+    "video": "videos/jessica.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "ogooue_maritime_03",
+    "name": "Camille",
+    "age": 22,
+    "description": "Naturelle, accueillante et raffinée.",
+    "image": "Camille.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "14000",
+      "1h": "23000",
+      "night": "85000",
+      "day": "145000"
+    }
+  },
+  {
+    "id": "ogooue_maritime_04",
+    "name": "Jade",
+    "age": 25,
+    "description": "Nouvelles vidéos ajoutées régulièrement.",
+    "image": "Jade.jpg",
+    "video": "videos/jade.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "95000",
+      "day": "160000"
+    }
+  }
+
+
+
+] }
       ]
     },
     {
@@ -571,9 +793,234 @@
       "currency": "FCFA",
       "currencySymbol": "FCFA",
       "regions": [
-        { "id": "abidjan", "name": "District Autonome d'Abidjan", "city": "Abidjan", "profiles": [] },
-        { "id": "yamoussoukro", "name": "Yamoussoukro", "city": "Yamoussoukro", "profiles": [] },
-        { "id": "bouake", "name": "Vallée du Bandama", "city": "Bouaké", "profiles": [] }
+        { "id": "abidjan", "name": "District Autonome d'Abidjan", "city": "Abidjan", "profiles": [
+
+
+
+  {
+    "id": "abidjan_01",
+    "name": "Jessica",
+    "age": 24,
+    "description": "Élégante, discrète et toujours souriante.",
+    "image": "Jessica.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "110000",
+      "day": "180000"
+    }
+  },
+  {
+    "id": "abidjan_02",
+    "name": "Emma",
+    "age": 23,
+    "description": "Profil vidéo premium avec contenu exclusif.",
+    "image": "Emma.jpg",
+    "video": "videos/emma.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "20000",
+      "1h": "35000",
+      "night": "120000",
+      "day": "200000"
+    }
+  },
+  {
+    "id": "abidjan_03",
+    "name": "Julie",
+    "age": 22,
+    "description": "Naturelle, raffinée et accueillante.",
+    "image": "Julie.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "abidjan_04",
+    "name": "Claire",
+    "age": 25,
+    "description": "Nouvelles vidéos ajoutées régulièrement.",
+    "image": "Claire.jpg",
+    "video": "videos/claire.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "19000",
+      "1h": "32000",
+      "night": "115000",
+      "day": "190000"
+    }
+  }
+
+
+
+] },
+        { "id": "yamoussoukro", "name": "Yamoussoukro", "city": "Yamoussoukro", "profiles": [
+
+
+  {
+    "id": "yamoussoukro_01",
+    "name": "Ambre",
+    "age": 23,
+    "description": "Charmante, élégante et discrète.",
+    "image": "Ambre.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "yamoussoukro_02",
+    "name": "Divine",
+    "age": 24,
+    "description": "Profil vidéo premium.",
+    "image": "Divine.jpg",
+    "video": "videos/divine.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "19000",
+      "1h": "32000",
+      "night": "110000",
+      "day": "185000"
+    }
+  },
+  {
+    "id": "yamoussoukro_03",
+    "name": "Jeanne",
+    "age": 22,
+    "description": "Naturelle et accueillante.",
+    "image": "Jeanne.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "16000",
+      "1h": "26000",
+      "night": "95000",
+      "day": "165000"
+    }
+  },
+  {
+    "id": "yamoussoukro_04",
+    "name": "Andrea",
+    "age": 25,
+    "description": "Nouvelles vidéos ajoutées régulièrement.",
+    "image": "Andrea.jpg",
+    "video": "videos/andrea.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "105000",
+      "day": "180000"
+    }
+  }
+
+
+
+] },
+        { "id": "bouake", "name": "Vallée du Bandama", "city": "Bouaké", "profiles": [
+
+
+
+
+  {
+    "id": "bouake_01",
+    "name": "Camille",
+    "age": 23,
+    "description": "Élégante et discrète.",
+    "image": "Camille.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "bouake_02",
+    "name": "Jade",
+    "age": 24,
+    "description": "Profil vidéo vérifié.",
+    "image": "Jade.jpg",
+    "video": "videos/jade.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "19000",
+      "1h": "32000",
+      "night": "110000",
+      "day": "185000"
+    }
+  },
+  {
+    "id": "bouake_03",
+    "name": "Eva",
+    "age": 22,
+    "description": "Douce et accueillante.",
+    "image": "Eva.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "16000",
+      "1h": "26000",
+      "night": "95000",
+      "day": "165000"
+    }
+  },
+  {
+    "id": "bouake_04",
+    "name": "Inès",
+    "age": 25,
+    "description": "Contenu vidéo premium.",
+    "image": "Ines.jpg",
+    "video": "videos/ines.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "105000",
+      "day": "180000"
+    }
+  }
+
+
+
+] }
       ]
     },
     {
@@ -584,9 +1031,232 @@
       "currency": "FCFA",
       "currencySymbol": "FCFA",
       "regions": [
-        { "id": "bamako", "name": "Bamako", "city": "Bamako", "profiles": [] },
-        { "id": "mopti", "name": "Mopti", "city": "Mopti", "profiles": [] },
-        { "id": "tombouctou", "name": "Tombouctou", "city": "Tombouctou", "profiles": [] }
+        { "id": "bamako", "name": "Bamako", "city": "Bamako", "profiles": [
+
+
+
+  {
+    "id": "bamako_01",
+    "name": "Emma",
+    "age": 23,
+    "description": "Élégante, discrète et toujours souriante.",
+    "image": "Emma.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "15000",
+      "1h": "25000",
+      "night": "90000",
+      "day": "150000"
+    }
+  },
+  {
+    "id": "bamako_02",
+    "name": "Jessica",
+    "age": 24,
+    "description": "Profil vidéo premium avec contenu exclusif.",
+    "image": "Jessica.jpg",
+    "video": "videos/jessica.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "bamako_03",
+    "name": "Julie",
+    "age": 22,
+    "description": "Naturelle, élégante et accueillante.",
+    "image": "Julie.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "14000",
+      "1h": "23000",
+      "night": "85000",
+      "day": "145000"
+    }
+  },
+  {
+    "id": "bamako_04",
+    "name": "Claire",
+    "age": 25,
+    "description": "Nouvelles vidéos ajoutées régulièrement.",
+    "image": "Claire.jpg",
+    "video": "videos/claire.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "95000",
+      "day": "160000"
+    }
+  }
+
+
+
+] },
+        { "id": "mopti", "name": "Mopti", "city": "Mopti", "profiles": [
+
+
+  {
+    "id": "mopti_01",
+    "name": "Emma",
+    "age": 23,
+    "description": "Charmante, discrète et raffinée.",
+    "image": "Emma.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "15000",
+      "1h": "25000",
+      "night": "90000",
+      "day": "150000"
+    }
+  },
+  {
+    "id": "mopti_02",
+    "name": "Divine",
+    "age": 24,
+    "description": "Profil vidéo vérifié avec contenu premium.",
+    "image": "Divine.jpg",
+    "video": "videos/divine.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "mopti_03",
+    "name": "Julie",
+    "age": 22,
+    "description": "Douce, accueillante et attentionnée.",
+    "image": "Julie.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "14000",
+      "1h": "23000",
+      "night": "85000",
+      "day": "145000"
+    }
+  },
+  {
+    "id": "mopti_04",
+    "name": "Ingrid",
+    "age": 25,
+    "description": "Contenu vidéo exclusif mis à jour régulièrement.",
+    "image": "Ingrid.jpg",
+    "video": "videos/ingrid.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "95000",
+      "day": "160000"
+    }
+  }
+
+
+
+
+] },
+        { "id": "tombouctou", "name": "Tombouctou", "city": "Tombouctou", "profiles": [
+
+
+
+  {
+    "id": "tombouctou_01",
+    "name": "Claire",
+    "age": 23,
+    "description": "Élégante, discrète et souriante.",
+    "image": "Claire.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "15000",
+      "1h": "25000",
+      "night": "90000",
+      "day": "150000"
+    }
+  },
+  {
+    "id": "tombouctou_02",
+    "name": "Jessica",
+    "age": 24,
+    "description": "Profil vidéo premium avec contenu exclusif.",
+    "image": "Jessica.jpg",
+    "video": "videos/jessica.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "tombouctou_03",
+    "name": "Camille",
+    "age": 22,
+    "description": "Naturelle, élégante et accueillante.",
+    "image": "Camille.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "14000",
+      "1h": "23000",
+      "night": "85000",
+      "day": "145000"
+    }
+  },
+  {
+    "id": "tombouctou_04",
+    "name": "Jade",
+    "age": 25,
+    "description": "Nouvelles vidéos ajoutées régulièrement.",
+    "image": "Jade.jpg",
+    "video": "videos/jade.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "95000",
+      "day": "160000"
+    }
+  }
+
+] }
       ]
     },
     {
