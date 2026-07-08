@@ -317,7 +317,84 @@
       "currency": "FCFA",
       "currencySymbol": "FCFA",
       "regions": [
-        { "id": "dakar", "name": "Dakar", "city": "Dakar", "profiles": [] },
+        { "id": "dakar", "name": "Dakar", "city": "Dakar", "profiles": [
+
+
+
+  {
+    "id": "dakar_01",
+    "name": "Jessica",
+    "age": 24,
+    "description": "Élégante, discrète et toujours souriante.",
+    "image": "Jessica.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "15000",
+      "1h": "25000",
+      "night": "90000",
+      "day": "150000"
+    }
+  },
+  {
+    "id": "dakar_02",
+    "name": "Emma",
+    "age": 23,
+    "description": "Profil vidéo premium avec contenu exclusif.",
+    "image": "Emma.jpg",
+    "video": "videos/emma.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "dakar_03",
+    "name": "Julie",
+    "age": 22,
+    "description": "Naturelle, élégante et attentionnée.",
+    "image": "Julie.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée"
+,
+    "prices": {
+      "30min": "14000",
+      "1h": "23000",
+      "night": "85000",
+      "day": "145000"
+    }
+  },
+  {
+    "id": "dakar_04",
+    "name": "Claire",
+    "age": 25,
+    "description": "Nouvelles vidéos ajoutées chaque semaine.",
+    "image": "Claire.jpg",
+    "video": "videos/claire.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "95000",
+      "day": "160000"
+    }
+  }
+
+
+
+
+] },
         { "id": "saint_louis", "name": "Saint-Louis", "city": "Saint-Louis", "profiles": [] },
         { "id": "thies", "name": "Thiès", "city": "Thiès", "profiles": [] }
       ]
