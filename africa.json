@@ -163,7 +163,80 @@
 
 
 ] },
-        { "id": "littoral", "name": "Littoral", "city": "Douala", "profiles": [] },
+        { "id": "littoral", "name": "Littoral", "city": "Douala", "profiles": [
+
+
+  {
+    "id": "littoral_01",
+    "name": "Claire",
+    "age": 23,
+    "description": "Charmante, élégante et discrète.",
+    "image": "Claire.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "10000",
+      "1h": "18000",
+      "night": "70000",
+      "day": "120000"
+    }
+  },
+  {
+    "id": "littoral_02",
+    "name": "Jessica",
+    "age": 26,
+    "description": "Contenu vidéo premium disponible.",
+    "image": "Jessica.jpg",
+    "video": "videos/jessica.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "12000",
+      "1h": "20000",
+      "night": "75000",
+      "day": "130000"
+    }
+  },
+  {
+    "id": "littoral_03",
+    "name": "Camille",
+    "age": 22,
+    "description": "Naturelle, élégante et attentionnée.",
+    "image": "Camille.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "9000",
+      "1h": "17000",
+      "night": "65000",
+      "day": "110000"
+    }
+  },
+  {
+    "id": "littoral_04",
+    "name": "Julie",
+    "age": 24,
+    "description": "Profil vidéo exclusif.",
+    "image": "Julie.jpg",
+    "video": "videos/julie.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "11000",
+      "1h": "19000",
+      "night": "72000",
+      "day": "125000"
+    }
+  }
+
+
+] },
         { "id": "ouest", "name": "Ouest", "city": "Bafoussam", "profiles": [] }
       ]
     },
