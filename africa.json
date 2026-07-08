@@ -9,7 +9,85 @@
       "currency": "FCFA",
       "currencySymbol": "FCFA",
       "regions": [
-        { "id": "adamaoua", "name": "Adamaoua", "city": "Ngaoundéré", "profiles": [] },
+        { "id": "adamaoua", "name": "Adamaoua", "city": "Ngaoundéré", "profiles": [
+
+
+  {
+    "id": "adamaoua_01",
+    "name": "Emma",
+    "age": 23,
+    "description": "Élégante, discrète et disponible sur réservation.",
+    "image": "Emma.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "10000",
+      "1h": "18000",
+      "night": "70000",
+      "day": "120000"
+    }
+  },
+  {
+    "id": "adamaoua_02",
+    "name": "Jessica",
+    "age": 25,
+    "description": "Souriante, raffinée et très appréciée.",
+    "image": "Jessica.jpg",
+    "video": "videos/jessica.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "12000",
+      "1h": "20000",
+      "night": "75000",
+      "day": "130000"
+    }
+  },
+  {
+    "id": "adamaoua_03",
+    "name": "Julie",
+    "age": 22,
+    "description": "Naturelle, élégante et attentionnée.",
+    "image": "Julie.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "9000",
+      "1h": "17000",
+      "night": "65000",
+      "day": "110000"
+    }
+  },
+  {
+    "id": "adamaoua_04",
+    "name": "Camille",
+    "age": 24,
+    "description": "Charme et discrétion pour des moments privilégiés.",
+    "image": "Camille.jpg",
+    "video": "videos/camille.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "11000",
+      "1h": "19000",
+      "night": "72000",
+      "day": "125000"
+    }
+  }
+
+
+
+
+
+
+
+] },
         { "id": "centre", "name": "Centre", "city": "Yaoundé", "profiles": [] },
         { "id": "littoral", "name": "Littoral", "city": "Douala", "profiles": [] },
         { "id": "ouest", "name": "Ouest", "city": "Bafoussam", "profiles": [] }
