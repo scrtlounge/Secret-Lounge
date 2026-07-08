@@ -88,7 +88,81 @@
 
 
 ] },
-        { "id": "centre", "name": "Centre", "city": "Yaoundé", "profiles": [] },
+        { "id": "centre", "name": "Centre", "city": "Yaoundé", "profiles": [
+
+
+  {
+    "id": "centre_01",
+    "name": "Chloé",
+    "age": 23,
+    "description": "Élégante, discrète et toujours souriante.",
+    "image": "Chloé.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "10000",
+      "1h": "18000",
+      "night": "70000",
+      "day": "120000"
+    }
+  },
+  {
+    "id": "centre_02",
+    "name": "Inès",
+    "age": 24,
+    "description": "Profil vérifié avec vidéos privées.",
+    "image": "Ines.jpg",
+    "video": "videos/ines.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "12000",
+      "1h": "20000",
+      "night": "75000",
+      "day": "130000"
+    }
+  },
+  {
+    "id": "centre_03",
+    "name": "Clémence",
+    "age": 22,
+    "description": "Gentille, attentionnée et très appréciée.",
+    "image": "Clemence.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "9000",
+      "1h": "17000",
+      "night": "65000",
+      "day": "110000"
+    }
+  },
+  {
+    "id": "centre_04",
+    "name": "Ambre",
+    "age": 25,
+    "description": "Nouvelles vidéos ajoutées régulièrement.",
+    "image": "Ambre.jpg",
+    "video": "videos/ambre.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "11000",
+      "1h": "19000",
+      "night": "72000",
+      "day": "125000"
+    }
+  }
+
+
+
+] },
         { "id": "littoral", "name": "Littoral", "city": "Douala", "profiles": [] },
         { "id": "ouest", "name": "Ouest", "city": "Bafoussam", "profiles": [] }
       ]
