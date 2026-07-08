@@ -395,8 +395,159 @@
 
 
 ] },
-        { "id": "saint_louis", "name": "Saint-Louis", "city": "Saint-Louis", "profiles": [] },
-        { "id": "thies", "name": "Thiès", "city": "Thiès", "profiles": [] }
+        { "id": "saint_louis", "name": "Saint-Louis", "city": "Saint-Louis", "profiles": [
+
+
+
+  {
+    "id": "saint_louis_01",
+    "name": "Ambre",
+    "age": 23,
+    "description": "Élégante, souriante et très discrète.",
+    "image": "Ambre.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "15000",
+      "1h": "25000",
+      "night": "90000",
+      "day": "150000"
+    }
+  },
+  {
+    "id": "saint_louis_02",
+    "name": "Divine",
+    "age": 24,
+    "description": "Profil vidéo avec contenu exclusif.",
+    "image": "Divine.jpg",
+    "video": "videos/divine.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "saint_louis_03",
+    "name": "Jeanne",
+    "age": 22,
+    "description": "Naturelle, raffinée et accueillante.",
+    "image": "Jeanne.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "14000",
+      "1h": "23000",
+      "night": "85000",
+      "day": "145000"
+    }
+  },
+  {
+    "id": "saint_louis_04",
+    "name": "Andrea",
+    "age": 25,
+    "description": "Nouvelles vidéos disponibles régulièrement.",
+    "image": "Andrea.jpg",
+    "video": "videos/andrea.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "95000",
+      "day": "160000"
+    }
+  }
+
+
+
+
+
+] },
+        { "id": "thies", "name": "Thiès", "city": "Thiès", "profiles": [
+
+
+  {
+    "id": "thies_01",
+    "name": "Camille",
+    "age": 23,
+    "description": "Charmante et discrète.",
+    "image": "Camille.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "15000",
+      "1h": "25000",
+      "night": "90000",
+      "day": "150000"
+    }
+  },
+  {
+    "id": "thies_02",
+    "name": "Jade",
+    "age": 24,
+    "description": "Profil vidéo vérifié.",
+    "image": "Jade.jpg",
+    "video": "videos/jade.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "18000",
+      "1h": "30000",
+      "night": "100000",
+      "day": "170000"
+    }
+  },
+  {
+    "id": "thies_03",
+    "name": "Eva",
+    "age": 22,
+    "description": "Élégante et accueillante.",
+    "image": "Eva.jpg",
+    "video": "",
+    "type": "photo",
+    "status": "busy",
+    "statusText": "Occupée",
+    "prices": {
+      "30min": "14000",
+      "1h": "23000",
+      "night": "85000",
+      "day": "145000"
+    }
+  },
+  {
+    "id": "thies_04",
+    "name": "Inès",
+    "age": 25,
+    "description": "Contenu vidéo premium.",
+    "image": "Ines.jpg",
+    "video": "videos/ines.mp4",
+    "type": "video",
+    "status": "available",
+    "statusText": "Disponible maintenant",
+    "prices": {
+      "30min": "17000",
+      "1h": "28000",
+      "night": "95000",
+      "day": "160000"
+    }
+  }
+
+
+
+] }
       ]
     },
     {
