@@ -45,7 +45,15 @@
 💰 Nuit : ${profile.prices["night"]} ${country.currency}
 💰 Journée : ${profile.prices["day"]} ${country.currency}`;
 
-            const whatsapp = `https://wa.me/${country.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
+
+
+const country = {
+  whatsapp: "212659743671" // indicatif pays + numéro, sans +, sans espaces
+};
+
+const whatsapp = `https://wa.me/${country.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
+
+
 
             card.innerHTML = `
                 <img src="${profile.image}" alt="${profile.name}">
