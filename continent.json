@@ -1,5 +1,5 @@
 {
-  "continents": [
+ "continents": [
     {
       "id": "africa",
       "name": "Afrique",
@@ -10,12 +10,13 @@
       "id": "asia",
       "name": "Asie",
       "emoji": "🌏",
-      "file": "asia.json"
+"file": "asia.json"
     },
     {
       "id": "europe",
       "name": "Europe",
-      "emoji": "🇪🇺",
+
+"emoji": "🇪🇺",
       "file": "europe.json"
     },
     {
