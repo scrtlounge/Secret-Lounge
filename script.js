@@ -47,9 +47,8 @@
 
 
 
-const country = {
-  whatsapp: "237659743671" // indicatif pays + numéro, sans +, sans espaces
-};
+const whatsappNumber = "237659743671" 
+
 
 const whatsapp = `https://wa.me/${country.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
 
