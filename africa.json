@@ -23,10 +23,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "10000",
-      "1h": "18000",
-      "night": "70000",
-      "day": "120000"
+      "30min": "4000",
+      "1h": "8000",
+      "night": "35000",
+      "day": "40000"
     }
   },
   {
@@ -40,10 +40,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "12000",
-      "1h": "20000",
-      "night": "75000",
-      "day": "130000"
+      "30min": "6000",
+      "1h": "12000",
+      "night": "40000",
+      "day": "50000"
     }
   },
   {
@@ -57,10 +57,10 @@
     "status": "busy",
     "statusText": "Occupée",
     "prices": {
-      "30min": "9000",
-      "1h": "17000",
-      "night": "65000",
-      "day": "110000"
+      "30min": "4000",
+      "1h": "9000",
+      "night": "30000",
+      "day": "35000"
     }
   },
   {
@@ -74,10 +74,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "11000",
-      "1h": "19000",
-      "night": "72000",
-      "day": "125000"
+      "30min": "3000",
+      "1h": "7000",
+      "night": "25000",
+      "day": "35000"
     }
   }
 
@@ -102,10 +102,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "10000",
-      "1h": "18000",
-      "night": "70000",
-      "day": "120000"
+      "30min": "4000",
+      "1h": "8000",
+      "night": "30000",
+      "day": "40000"
     }
   },
   {
@@ -119,10 +119,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "12000",
-      "1h": "20000",
-      "night": "75000",
-      "day": "130000"
+      "30min": "3000",
+      "1h": "7000",
+      "night": "30000",
+      "day": "35000"
     }
   },
   {
@@ -136,10 +136,10 @@
     "status": "busy",
     "statusText": "Occupée",
     "prices": {
-      "30min": "9000",
-      "1h": "17000",
-      "night": "65000",
-      "day": "110000"
+      "30min": "4000",
+      "1h": "9000",
+      "night": "35000",
+      "day": "40000"
     }
   },
   {
@@ -153,10 +153,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "11000",
-      "1h": "19000",
-      "night": "72000",
-      "day": "125000"
+      "30min": "2000",
+      "1h": "6000",
+      "night": "25000",
+      "day": "30000"
     }
   }
 
@@ -177,10 +177,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "10000",
-      "1h": "18000",
-      "night": "70000",
-      "day": "120000"
+      "30min": "4000",
+      "1h": "8000",
+      "night": "35000",
+      "day": "40000"
     }
   },
   {
@@ -194,10 +194,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "12000",
-      "1h": "20000",
-      "night": "75000",
-      "day": "130000"
+      "30min": "2500",
+      "1h": "5000",
+      "night": "29000",
+      "day": "30000"
     }
   },
   {
@@ -211,10 +211,10 @@
     "status": "busy",
     "statusText": "Occupée",
     "prices": {
-      "30min": "9000",
-      "1h": "17000",
-      "night": "65000",
-      "day": "110000"
+      "30min": "3500",
+      "1h": "7000",
+      "night": "35000",
+      "day": "40000"
     }
   },
   {
@@ -228,10 +228,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "11000",
-      "1h": "19000",
-      "night": "72000",
-      "day": "125000"
+      "30min": "4000",
+      "1h": "8000",
+      "night": "30000",
+      "day": "40000"
     }
   }
 
@@ -249,10 +249,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "10000",
-      "1h": "18000",
-      "night": "70000",
-      "day": "120000"
+      "30min": "4000",
+      "1h": "8000",
+      "night": "35000",
+      "day": "40000"
     }
   },
   {
@@ -266,10 +266,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "12000",
-      "1h": "20000",
-      "night": "75000",
-      "day": "130000"
+      "30min": "2000",
+      "1h": "5000",
+      "night": "25000",
+      "day": "30000"
     }
   },
   {
@@ -283,10 +283,10 @@
     "status": "busy",
     "statusText": "Occupée",
     "prices": {
-      "30min": "9000",
-      "1h": "17000",
-      "night": "65000",
-      "day": "110000"
+      "30min": "4000",
+      "1h": "7000",
+      "night": "35000",
+      "day": "40000"
     }
   },
   {
@@ -300,10 +300,10 @@
     "status": "available",
     "statusText": "Disponible maintenant",
     "prices": {
-      "30min": "11000",
-      "1h": "19000",
-      "night": "72000",
-      "day": "125000"
+      "30min": "3000",
+      "1h": "6000",
+      "night": "32000",
+      "day": "45000"
     }
   }
 ]}
